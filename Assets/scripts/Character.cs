@@ -18,19 +18,41 @@ public class Character : MonoBehaviour
     private float dashRemainingTime = 0f;
     private bool isDashing = false;
 
+    private int playerId;
+    private SelectorWithBolts selector;
+
+    private Vector3 dashForward;
+
+    public int PlayerID
+    {
+        get { return playerId; }
+        set { playerId = value; }
+    }
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
     }
 
+    void Start()
+    {
+        selector = GameObject.FindObjectOfType<SelectorWithBolts>();
+    }
+
     void Update()
     {
+        Debug.Log(rb.velocity.magnitude);
+
         if (dashRemainingTime > 0)
         {
             dashRemainingTime = Mathf.Clamp(dashRemainingTime - Time.deltaTime, 0f, DashCooldown);
         }
 
-        if (!isDashing)
+        if (isDashing)
+        {
+            rb.AddForce(dashForward * DashForce, ForceMode.VelocityChange);
+        }
+        else
         {
             rb.rotation = Quaternion.RotateTowards(rb.rotation, targetRot, TurnSpeed * Time.deltaTime);
         }
@@ -78,9 +100,9 @@ public class Character : MonoBehaviour
     {
         isDashing = true;
 
-        Vector3 fwd = GetComponent<Transform>().forward;
+        dashForward = GetComponent<Transform>().forward;
         rb.velocity = Vector3.zero;
-        rb.AddForce(fwd * DashForce, ForceMode.Impulse);
+        
         animator.SetTrigger("Dash");
 
         yield return new WaitForSeconds(0.9f);
