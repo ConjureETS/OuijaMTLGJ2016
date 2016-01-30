@@ -14,18 +14,20 @@ public class PlayerBehaviour : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		string horizAxisString = "Horizontal"+(playerNumber==1?"":playerNumber.ToString());
 		string vertAxisString = "Vertical"+(playerNumber==1?"":playerNumber.ToString());
 
-		Vector3 movement = new Vector3 (Input.GetAxis(horizAxisString), Input.GetAxis(vertAxisString), 0) * speed;
+		Vector3 movement = new Vector3 (Input.GetAxis(horizAxisString), Input.GetAxis(vertAxisString), 0) * speed * Time.deltaTime;
 
 		if (movement.magnitude > speed)
-			movement = movement.normalized * speed;
+			movement = movement.normalized * speed * Time.deltaTime;
 
-		//if((transform.position + movement - anchor.transform.position).magnitude >= maxRangeFromAnchor)
-		//	movement -= anchor.transform.position - transform.position
+		Vector3 distanceFromAnchor = transform.position - anchor.transform.position;
+		if ((distanceFromAnchor + movement).magnitude > maxRangeFromAnchor) {
+			movement -= (distanceFromAnchor - distanceFromAnchor.normalized * maxRangeFromAnchor);
+		}//*/
 
-		transform.position += movement * Time.deltaTime;
+		transform.position += movement;
 	}
 }
