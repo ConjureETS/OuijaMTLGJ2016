@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 539aad81a9327404e8e67bb53c540d91, type: 3}
+  m_Name: ControllerMapper
+  m_EditorClassIdentifier: 
+  Contexts:
+  - name: Normal
+    ButtonActions: []
+    AxisRanges:
+    - name: MoveLeft
+      Axis: 00000000
+      KeyboardKeys: 00000000
+    - name: MoveRight
+      Axis: 01000000
+      KeyboardKeys: 
+    - name: MoveForward
+      Axis: 02000000
+      KeyboardKeys: 
+    - name: MoveBackward
+      Axis: 03000000
+      KeyboardKeys: 
+    ButtonStates: []
