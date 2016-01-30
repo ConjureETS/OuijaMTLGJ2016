@@ -1972,7 +1972,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 198936}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .189999998, z: 0}
+  m_LocalPosition: {x: -2.38000011, y: .189999998, z: 3.22000003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 448126}
@@ -3456,7 +3456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 9543926}
-  MoveSpeed: 5
+  MoveSpeed: 4
   TurnSpeed: 400
   DashForce: 9
   DashCooldown: 6
