@@ -10,6 +10,7 @@ function Start () {
 }
 
 function Update () {
+    /*
 	v=Input.GetAxis("Vertical"+playerNumber);
 	h=Input.GetAxis("Horizontal"+playerNumber);
 	if (animator.GetFloat("Run")==0.2){
@@ -17,22 +18,24 @@ function Update () {
 			animator.SetBool("Jump",true);
 		}
 	}
-	Sprinting();
+	Sprinting();*/
 	
 }
 
 function FixedUpdate (){
+    /*
 	animator.SetFloat("Walk",v);
 	animator.SetFloat("Run",run);
-	animator.SetFloat("Turn",h);
+	animator.SetFloat("Turn",h);*/
 }
 
 function Sprinting(){
+    /*
 	if (Input.GetKey(KeyCode.LeftShift)){
 		run=0.2;
 	}
 	else
 	{
 		run=0.0;
-	}
+	}*/
 }

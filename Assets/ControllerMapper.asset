@@ -13,7 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Contexts:
   - name: Normal
-    ButtonActions: []
+    ButtonActions:
+    - name: Dash
+      XboxButtons: 02000000
+      KeyboardKeys: 
     AxisRanges:
     - name: MoveLeft
       Axis: 00000000
@@ -27,4 +30,8 @@ MonoBehaviour:
     - name: MoveBackward
       Axis: 03000000
       KeyboardKeys: 
+    ButtonStates: []
+  - name: Dashing
+    ButtonActions: []
+    AxisRanges: []
     ButtonStates: []

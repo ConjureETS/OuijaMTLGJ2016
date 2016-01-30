@@ -9,12 +9,11 @@ public class CharacterController : MonoBehaviour
     public Character character;
     public PlayerNumber playerNumber;
 
-	// Use this for initialization
 	void Start ()
     {
         InputManager.Instance.PushActiveContext("Normal", (int)playerNumber);
-        InputManager.Instance.AddCallback((int)playerNumber, HandlePlayerButtons);
         InputManager.Instance.AddCallback((int)playerNumber, HandlePlayerAxis);
+        InputManager.Instance.AddCallback((int)playerNumber, HandlePlayerButtons);
 	}
 
     private void HandlePlayerAxis(MappedInput input)
@@ -50,6 +49,9 @@ public class CharacterController : MonoBehaviour
     {
         if (character == null) return;
 
-
+        if (input.Actions.Contains("Dash"))
+        {
+            character.Dash();
+        }
     }
 }
