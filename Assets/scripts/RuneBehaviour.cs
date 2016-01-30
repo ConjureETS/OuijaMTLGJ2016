@@ -5,7 +5,7 @@ public class RuneBehaviour : MonoBehaviour {
 
 	public static float range;
 	public SpriteRenderer symbol;
-	private int letterNum;
+	public int letterNum;
 
 	// Use this for initialization
 	void Start () {

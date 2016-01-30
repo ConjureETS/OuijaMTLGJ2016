@@ -29,17 +29,23 @@ public class HexSpawner : MonoBehaviour {
 		GameObject hex;
 		RuneBehaviour rune;
 		int index = 0;
+
+		float xOffset = numColumns * 1.5f * dimension / 2f;
+		float yOffset = numRows * 1f * ratio * dimension / 2f;
+
 		for (int row = 0; row < numRows; row++)
 		{
 			for (int col = 0; col < numColumns; col++)
 			{
-				hex = GameObject.Instantiate(hexagon, transform.position + 
-					new Vector3(
-						(3f*dimension*col + 1.5f*dimension * (row%2)) * xScale,
-						(row * ratio * dimension) * yScale, 0f),
-					Quaternion.identity) as GameObject;
-				hex.transform.localScale = new Vector3(xScale, yScale, 1f);
+				hex = GameObject.Instantiate(hexagon) as GameObject;
 				hex.transform.parent = transform;
+				hex.transform.localScale = new Vector3(xScale, yScale, 1f);
+
+				hex.transform.localPosition = new Vector3(
+						(3f * dimension * col + 1.5f * dimension * (row % 2)) * xScale - xOffset,
+						(row * ratio * dimension) * yScale - yOffset, 0f);
+
+				hex.transform.localRotation = Quaternion.identity;
 
 				rune = hex.GetComponent<RuneBehaviour>();
 				rune.SetSymbol(randomNums[index++]);
