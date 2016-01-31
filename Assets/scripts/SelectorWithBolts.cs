@@ -15,6 +15,11 @@ public class SelectorWithBolts : MonoBehaviour
     private Rigidbody rb;
     private MeshRenderer[][] playerCylinders;
 
+    private SoundManager sm;
+
+    public float scrappingSoundThreshold = 0.4f;
+    public float scrappingSoundVolumeFactor = 0.05f;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -25,6 +30,8 @@ public class SelectorWithBolts : MonoBehaviour
         {
             playerCylinders[i] = Ropes[i].GetComponent<Transform>().GetComponentsInChildren<MeshRenderer>();
         }
+
+       
     }
 
     void Start()
@@ -33,6 +40,8 @@ public class SelectorWithBolts : MonoBehaviour
         {
             ReplenishPlayerDashMeter(i);
         }
+
+        sm = SoundManager.Instance;
     }
 
     void Update()
@@ -42,6 +51,22 @@ public class SelectorWithBolts : MonoBehaviour
             Vector3 constraintPos = Bolts[i].position;
             RootCylinders[i].position = constraintPos;
 		}
+
+        if( rb.velocity.sqrMagnitude > scrappingSoundThreshold)
+        {
+            if (sm.Scrapping.isPlaying)
+            {
+                sm.UpdateScrappingVolume( Mathf.Clamp(rb.velocity.magnitude * scrappingSoundVolumeFactor, 0f, 1f));
+            }
+            else
+            {
+                sm.PlayScrappingSound(Mathf.Clamp(rb.velocity.magnitude * scrappingSoundVolumeFactor, 0f, 1f));
+            }
+        }
+        else
+        {
+            sm.UpdateScrappingVolume(0f);
+        }
     }
 
     public void ReplenishPlayerDashMeter(int playerId)
