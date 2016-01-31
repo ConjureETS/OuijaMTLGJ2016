@@ -11,7 +11,7 @@ public class LevelManager : MonoBehaviour {
 	public float colSpacing = 0f;
 	public float rowSpacing = 0f;
 	public Camera camera;
-	public Transform darkness;
+	//public Transform darkness;
 
 	public float dimension = 0.6f;
 	public GameObject hexagon;
@@ -83,14 +83,14 @@ public class LevelManager : MonoBehaviour {
         SoundManager.Instance.PlayShortHorn();
 	}
 
-	void Update()
+	/*void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			StartCoroutine(SendWinnerToTheSky(state.players[1]));
 			StartCoroutine(FadeToDark());
 		}
-	}
+	}*/
 
 	public void PressTile(int letterNum, RuneBehaviour tile)
 	{
@@ -280,7 +280,7 @@ public class LevelManager : MonoBehaviour {
 
 			yield return null;
 		}
-		Application.LoadLevel(0);
+		Application.LoadLevel(0); //TODO Check this
 	}
 
     private void EnableKinematics(bool state)
