@@ -15,7 +15,7 @@ public class Character : MonoBehaviour
     private Rigidbody rb;
     private Quaternion targetRot;
 
-    private float dashRemainingTime = 0f;
+    private float dashRemainingTime = 6f;
     private bool isDashing = false;
 
     private int playerId;
@@ -41,8 +41,6 @@ public class Character : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(rb.velocity.magnitude);
-
         if (dashRemainingTime > 0)
         {
             dashRemainingTime = Mathf.Clamp(dashRemainingTime - Time.deltaTime, 0f, DashCooldown);
@@ -88,6 +86,8 @@ public class Character : MonoBehaviour
     public bool Dash()
     {
         if (dashRemainingTime > 0f) return false;
+
+        selector.ReplenishPlayerDashMeter(playerId);
 
         dashRemainingTime = DashCooldown;
 

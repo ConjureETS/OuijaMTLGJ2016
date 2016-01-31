@@ -33,6 +33,8 @@ public class Player {
 
 	public bool hasNextLetter(int letterNum)
 	{
+        if (index < 0 || index >= letters.Length) return false;
+
 		if (letters[index] == letterNum)
 		{
 			index++;
