@@ -39,12 +39,15 @@ public class LevelManager : MonoBehaviour {
         yield return StartCoroutine(FadeOutNumber(Icon2));
         yield return StartCoroutine(FadeOutNumber(Icon1));
 
-        yield return StartCoroutine(FadeOutNumber(IconGo));
-
         for (int i = 0; i < 3; i++)
         {
             InputManager.Instance.PushActiveContext("Normal", i);
         }
+
+        EnableKinematics(false);
+
+        //play start sound
+        SoundManager.Instance.PlayShortHorn();
     }
 
     private IEnumerator FadeOutNumber(Image number)
@@ -86,20 +89,6 @@ public class LevelManager : MonoBehaviour {
 	// Use this for initialization
 	void Start()
     {
-        for (int i = 0; i < 3; i++)
-        {
-            InputManager.Instance.PushActiveContext("CinematicEvent", i);
-        }
-
-        Icon1.gameObject.SetActive(false);
-        Icon2.gameObject.SetActive(false);
-        Icon3.gameObject.SetActive(false);
-        IconGo.gameObject.SetActive(false);
-
-        StartCoroutine(CountDown());
-
-
-
         state = GameState.Instance;
 		state.currentLevel = this;
 		int numColumns = state.numColumns;
@@ -151,10 +140,22 @@ public class LevelManager : MonoBehaviour {
         Selector = GameObject.FindObjectOfType<SelectorWithBolts>();
         PhysicsContainer = GameObject.Find("PhysicsContainer");
 
-        //play start sound
-        SoundManager.Instance.PlayShortHorn();
+
+        EnableKinematics(true);
+        for (int i = 0; i < 3; i++)
+        {
+            InputManager.Instance.PushActiveContext("CinematicEvent", i);
+        }
+
+        Icon1.gameObject.SetActive(false);
+        Icon2.gameObject.SetActive(false);
+        Icon3.gameObject.SetActive(false);
+        IconGo.gameObject.SetActive(false);
+
+        StartCoroutine(CountDown());
 	}
 
+    /*
 	void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.Space))
@@ -162,7 +163,7 @@ public class LevelManager : MonoBehaviour {
 			StartCoroutine(SendWinnerToTheSky(state.players[1]));
 			StartCoroutine(FadeToDark());
 		}
-	}
+	}*/
 
 	public void PressTile(int letterNum, RuneBehaviour tile)
 	{

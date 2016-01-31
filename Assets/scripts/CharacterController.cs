@@ -11,7 +11,7 @@ public class CharacterController : MonoBehaviour
 
 	void Start ()
     {
-        InputManager.Instance.PushActiveContext("Normal", (int)playerNumber);
+        //InputManager.Instance.PushActiveContext("Normal", (int)playerNumber);
         InputManager.Instance.AddCallback((int)playerNumber, HandlePlayerAxis);
         InputManager.Instance.AddCallback((int)playerNumber, HandlePlayerButtons);
 
