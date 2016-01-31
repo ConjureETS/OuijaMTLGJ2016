@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using XInputDotNetPure;
 
 [RequireComponent(typeof(Rigidbody))]
 public class SelectorWithBolts : MonoBehaviour
@@ -14,6 +15,11 @@ public class SelectorWithBolts : MonoBehaviour
     private Rigidbody rb;
     private MeshRenderer[][] playerCylinders;
 
+    private SoundManager sm;
+
+    public float scrappingSoundThreshold = 1f;
+    public float scrappingSoundVolumeFactor = 0.05f;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -24,6 +30,8 @@ public class SelectorWithBolts : MonoBehaviour
         {
             playerCylinders[i] = Ropes[i].GetComponent<Transform>().GetComponentsInChildren<MeshRenderer>();
         }
+
+        sm = SoundManager.Instance;
     }
 
     void Start()
@@ -41,6 +49,22 @@ public class SelectorWithBolts : MonoBehaviour
             Vector3 constraintPos = Bolts[i].position;
             RootCylinders[i].position = constraintPos;
 		}
+
+        if( rb.velocity.sqrMagnitude > scrappingSoundThreshold)
+        {
+            if (sm.Scrapping.isPlaying)
+            {
+                sm.UpdateScrappingVolume( Mathf.Clamp(rb.velocity.magnitude * scrappingSoundVolumeFactor, 0f, 1f));
+            }
+            else
+            {
+                sm.PlayScrappingSound(Mathf.Clamp(rb.velocity.magnitude * scrappingSoundVolumeFactor, 0f, 1f));
+            }
+        }
+        else
+        {
+            sm.UpdateScrappingVolume(0f);
+        }
     }
 
     public void ReplenishPlayerDashMeter(int playerId)
@@ -73,6 +97,27 @@ public class SelectorWithBolts : MonoBehaviour
             playerCylinders[playerId][cylinderIndex].material.color = DashColors[playerId];
 
             yield return null;
+        }
+
+        StartCoroutine(VibrateController(playerId));
+    }
+
+    private IEnumerator VibrateController(int playerId)
+    {
+        GamePad.SetVibration((PlayerIndex)playerId, 1f, 1f);
+
+        yield return new WaitForSeconds(0.5f);
+
+        GamePad.SetVibration((PlayerIndex)playerId, 0f, 0f);
+    }
+
+    void OnApplicationQuit()
+    {
+        // In case the coroutine was still running when we closed the game
+
+        for (int i = 0; i < Bolts.Length; i++)
+        {
+            GamePad.SetVibration((PlayerIndex)i, 0f, 0f);
         }
     }
 }

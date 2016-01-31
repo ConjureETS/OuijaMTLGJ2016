@@ -21,6 +21,7 @@ public class LevelManager : MonoBehaviour {
 
     private SelectorWithBolts Selector;
     private GameObject PhysicsContainer;
+    private int playerId;
 
 	// Use this for initialization
 	void Start()
@@ -83,9 +84,11 @@ public class LevelManager : MonoBehaviour {
 		{
 			if (player.hasNextLetter(letterNum))
 			{
-                tile.symbol.color = PlayerColors[player.num - 1];
-                StartCoroutine(MoveSelectorToTile(tile));
+                playerId = player.num - 1;
 
+                tile.symbol.color = PlayerColors[playerId];
+                StartCoroutine(MoveSelectorToTile(tile));
+                
 				//Do something
 				if (player.hasWon())
 				{
@@ -152,7 +155,7 @@ public class LevelManager : MonoBehaviour {
             Vector3 endPos = cameraTrans.position + cameraTrans.forward * 10f;//trans.position + new Vector3(0f, 5f, 0f);
             Quaternion endRot = Quaternion.LookRotation(cameraTrans.forward);
 
-            ratio += Time.deltaTime / 2f;
+            ratio += Time.deltaTime / 1.5f;
 
             trans.position = Vector3.Lerp(startPos, endPos, ratio);
             trans.rotation = Quaternion.Slerp(startRot, endRot, ratio);
@@ -177,9 +180,11 @@ public class LevelManager : MonoBehaviour {
         float ratio = 0f;
         while (ratio < 1f)
         {
-            ratio += Time.deltaTime / 0.5f;
+            ratio += Time.deltaTime / 1f;
 
-            Vector3 endPos = Camera.main.ViewportToWorldPoint(new Vector3(0.9f, 0.9f, Camera.main.nearClipPlane + 0.1f));
+            float viewportX = 0.2f + playerId * 0.3f;
+
+            Vector3 endPos = Camera.main.ViewportToWorldPoint(new Vector3(viewportX, 0.8f, Camera.main.nearClipPlane + 0.1f));
 
             trans.position = Vector3.Lerp(startPos, endPos, ratio);
             trans.localScale = Vector3.Lerp(startScale, endScale, ratio);
