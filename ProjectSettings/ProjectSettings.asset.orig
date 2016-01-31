@@ -8,10 +8,6 @@ PlayerSettings:
   defaultScreenOrientation: 4
   targetDevice: 2
   targetResolution: 0
-<<<<<<< Updated upstream
-  useOnDemandResources: 0
-=======
->>>>>>> Stashed changes
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: GameJamProject
@@ -64,12 +60,6 @@ PlayerSettings:
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
-<<<<<<< Updated upstream
-  n3dsDisableStereoscopicView: 0
-  n3dsEnableSharedListOpt: 1
-  n3dsEnableVSync: 0
-=======
->>>>>>> Stashed changes
   xboxOneResolution: 0
   ps3SplashScreen: {fileID: 0}
   videoMemoryForVertexBuffers: 0
@@ -212,17 +202,14 @@ PlayerSettings:
   ps4pnFriends: 1
   ps4pnGameCustomData: 1
   playerPrefsSupport: 0
-<<<<<<< Updated upstream
+<<<<<<< HEAD
   ps4ReprojectionSupport: 0
-  ps4UseAudio3dBackend: 0
-  ps4Audio3dVirtualSpeakerCount: 14
   ps4attribUserManagement: 0
   ps4attribMoveSupport: 0
   ps4attrib3DSupport: 0
   ps4attribShareSupport: 0
-  ps4IncludedModules: []
 =======
->>>>>>> Stashed changes
+>>>>>>> c9562f239ec5a9435e8dc8fd296535a6d3e0c549
   monoEnv: 
   psp2Splashimage: {fileID: 0}
   psp2NPTrophyPackPath: 
@@ -425,10 +412,7 @@ PlayerSettings:
   - additionalIl2CppArgs::additionalIl2CppArgs
   WebGL::emscriptenArgs: 
   WebGL::template: APPLICATION:Default
-<<<<<<< Updated upstream
   additionalIl2CppArgs::additionalIl2CppArgs: 
-=======
->>>>>>> Stashed changes
   firstStreamedSceneWithResources: 0
   cloudProjectId: 
   projectId: 

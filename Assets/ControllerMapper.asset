@@ -38,7 +38,7 @@ MonoBehaviour:
   - name: Menu
     ButtonActions:
     - name: Dash
-      XboxButtons: 
+      XboxButtons: 00000000010000000200000003000000
       KeyboardKeys: 
     AxisRanges: []
     ButtonStates: []
