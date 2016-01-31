@@ -4,9 +4,10 @@ using System.Collections;
 public class MenuInteractions : MonoBehaviour
 {
     public int nextLevel;
-    public bool isSkippable = true;
     public bool hasAutoSkips = false;
-    public int timeBeforeSkip = 10;
+    public int timeBeforeAutoSkip = 10;
+    public int timeBeforeSkippable = 0;
+    private bool isSkippable = false;
 
     // Update is called once per frame
     void Update()
@@ -18,16 +19,13 @@ public class MenuInteractions : MonoBehaviour
                 Application.LoadLevel(nextLevel);
             }
         }
+        
     }
 
     void Start()
     {   
-        // this won't lead anywhere... let's fix it
-        if(!isSkippable && !hasAutoSkips)
-        {
-            isSkippable = true;
-            hasAutoSkips = true;
-        }
+        
+        StartCoroutine(EnableSkip());
 
         if (hasAutoSkips)
         {
@@ -37,8 +35,15 @@ public class MenuInteractions : MonoBehaviour
 
     IEnumerator AutoSkip()
     {        
-        yield return new WaitForSeconds(timeBeforeSkip);
+        yield return new WaitForSeconds(timeBeforeAutoSkip);
         Application.LoadLevel(nextLevel);
+
+    }
+
+    IEnumerator EnableSkip()
+    {
+        yield return new WaitForSeconds(timeBeforeSkippable);
+        isSkippable = true;
 
     }
 }
