@@ -56,13 +56,12 @@ public class GUIGameplay : MonoBehaviour {
                 {
                     Color temp = GUI.color ;
                     GUI.color = new Color(1f, 1f, 1f, 0.50f);
-                    GUI.DrawTexture(new Rect(x + j * 40 + 20 , 40, 40, 40), rune);
+                    GUI.DrawTexture(new Rect(x + j * 40 + 20 , 50, 40, 40), rune);
                     GUI.color = temp;
-
                 }
                 else
                 {
-                    GUI.DrawTexture(new Rect(x + j * 30 + 20 , 40, 30, 30), rune);
+                    GUI.DrawTexture(new Rect(x + j * 40 + 20 , 50, 40, 40), rune);
                 }
 
                 
