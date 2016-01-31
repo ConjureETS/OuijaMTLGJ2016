@@ -31,6 +31,12 @@ public class RuneBehaviour : MonoBehaviour {
 	    }
 	}
 
+	void Start()
+	{
+		float col = 80f/255f; // Random.value;
+		GetComponent<Renderer>().material.color = new Color(col, col, col);
+	}
+
     void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.tag == "Player" && currentCharacter == null)

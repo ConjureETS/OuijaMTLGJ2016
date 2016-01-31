@@ -14,7 +14,7 @@ public class Character : MonoBehaviour
     public Color TrailColor;
 
     private Rigidbody rb;
-    private Quaternion targetRot;
+    private Quaternion targetRot = Quaternion.identity;
 
     private float dashRemainingTime = 6f;
     private bool isDashing = false;
@@ -53,7 +53,7 @@ public class Character : MonoBehaviour
         }
         else
         {
-            rb.rotation = Quaternion.RotateTowards(rb.rotation, targetRot, TurnSpeed * Time.deltaTime);
+			rb.rotation = Quaternion.RotateTowards(rb.rotation, targetRot, TurnSpeed * Time.deltaTime);
         }
     }
 
