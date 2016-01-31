@@ -155,15 +155,17 @@ public class LevelManager : MonoBehaviour {
         StartCoroutine(CountDown());
 	}
 
-    /*
+    
 	void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.Space))
+        /* hacking skillz
+        if (Input.GetKeyDown(KeyCode.Space))
 		{
 			StartCoroutine(SendWinnerToTheSky(state.players[1]));
 			StartCoroutine(FadeToDark());
 		}
-	}*/
+        */
+	}
 
 	public void PressTile(int letterNum, RuneBehaviour tile)
 	{
@@ -303,6 +305,9 @@ public class LevelManager : MonoBehaviour {
 
 	private IEnumerator SendWinnerToTheSky(Player player)
 	{
+
+        SoundManager.Instance.PlayWinning();
+
 		GameObject soul = GameObject.Instantiate(player.character.gameObject, player.character.transform.position, player.character.transform.rotation) as GameObject;
 
 		Color c;

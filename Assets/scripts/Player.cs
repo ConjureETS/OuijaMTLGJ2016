@@ -20,11 +20,13 @@ public class Player {
 		{
 			letters[i] = (int)(str[i] - 'A');
 		}
-		/*Debug.Log("Player " + num + " has:");
+        /*Debug.Log("Player " + num + " has:");
 		foreach (int i in letters)
 		{
 			Debug.Log(i);
 		}*/
+
+        index = 0;
 	}
 
 	public void SetWord(int[] letters)
