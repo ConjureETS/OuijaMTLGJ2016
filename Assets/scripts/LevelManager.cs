@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour {
 	public float yScale = 0.8f;
 	public float dimension = 0.6f;
 	public GameObject hexagon;
+    public Color[] PlayerColors;
 	private float ratio = Mathf.Sqrt(1 - 0.5f * 0.5f);
 	private GameState state;
 	private List<RuneBehaviour> runes = new List<RuneBehaviour>();
@@ -79,6 +80,7 @@ public class LevelManager : MonoBehaviour {
 		{
 			if (player.hasNextLetter(letterNum))
 			{
+                tile.symbol.color = PlayerColors[player.num - 1];
                 StartCoroutine(MoveSelectorToTile(tile));
 
 				//Do something
@@ -98,6 +100,9 @@ public class LevelManager : MonoBehaviour {
 		{
             InputManager.Instance.PushActiveContext("CinematicEvent", i);
 		}
+
+        // We dontt want the color to lerp back to white while we are moving to the rune
+        tile.GetComponent<RuneBehaviour>().enabled = false;
 
         tile.GetComponent<CapsuleCollider>().enabled = false;
         tile.GetComponent<SpriteRenderer>().sortingOrder = 100;
