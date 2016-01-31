@@ -41,8 +41,6 @@ public class Character : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(rb.velocity.magnitude);
-
         if (dashRemainingTime > 0)
         {
             dashRemainingTime = Mathf.Clamp(dashRemainingTime - Time.deltaTime, 0f, DashCooldown);
