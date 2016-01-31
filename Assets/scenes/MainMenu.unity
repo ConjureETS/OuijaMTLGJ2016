@@ -170,7 +170,7 @@ MonoBehaviour:
   - {fileID: 1385875579}
   - {fileID: 1992441096}
   - {fileID: 162809795}
-  levelIndex: 0
+  levelIndex: 2
 --- !u!1 &73358719
 GameObject:
   m_ObjectHideFlags: 0

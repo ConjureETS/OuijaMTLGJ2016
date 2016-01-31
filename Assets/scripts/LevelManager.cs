@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Collections;
 using InputHandler;
+using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour {
 
@@ -25,10 +26,81 @@ public class LevelManager : MonoBehaviour {
     private GameObject PhysicsContainer;
     private int playerId;
 
+    public Image Icon1;
+    public Image Icon2;
+    public Image Icon3;
+    public Image IconGo;
+
+    private IEnumerator CountDown()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        yield return StartCoroutine(FadeOutNumber(Icon3));
+        yield return StartCoroutine(FadeOutNumber(Icon2));
+        yield return StartCoroutine(FadeOutNumber(Icon1));
+
+        yield return StartCoroutine(FadeOutNumber(IconGo));
+
+        for (int i = 0; i < 3; i++)
+        {
+            InputManager.Instance.PushActiveContext("Normal", i);
+        }
+    }
+
+    private IEnumerator FadeOutNumber(Image number)
+    {
+        number.gameObject.SetActive(true);
+
+        number.rectTransform.offsetMax = Vector2.zero;
+        number.rectTransform.offsetMin = Vector2.zero;
+
+        Vector2 initialAnchorMin = new Vector2(0.4f, 0.3f);
+        Vector2 initialAnchorMax = new Vector2(0.6f, 0.7f);
+
+        Vector2 finalAnchor = new Vector2(0.5f, 0.5f);
+
+        float ratio = 0f;
+
+        Color initialColor = number.color;
+        Color finalColor = new Color(initialColor.r, initialColor.g, initialColor.b, 0f);
+
+        while (ratio < 1f)
+        {
+            ratio += Time.deltaTime / 1f;
+
+            number.rectTransform.anchorMin = Vector2.Lerp(initialAnchorMin, finalAnchor, ratio);
+            number.rectTransform.anchorMax = Vector2.Lerp(initialAnchorMax, finalAnchor, ratio);
+
+            number.color = Color.Lerp(initialColor, finalColor, ratio);
+
+            yield return null;
+        }
+
+        number.gameObject.SetActive(false);
+    }
+
+
+
+
+
 	// Use this for initialization
 	void Start()
-	{
-		state = GameState.Instance;
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            InputManager.Instance.PushActiveContext("CinematicEvent", i);
+        }
+
+        Icon1.gameObject.SetActive(false);
+        Icon2.gameObject.SetActive(false);
+        Icon3.gameObject.SetActive(false);
+        IconGo.gameObject.SetActive(false);
+
+        StartCoroutine(CountDown());
+
+
+
+        state = GameState.Instance;
 		state.currentLevel = this;
 		int numColumns = state.numColumns;
 		int numRows = state.numRows;
@@ -83,14 +155,14 @@ public class LevelManager : MonoBehaviour {
         SoundManager.Instance.PlayShortHorn();
 	}
 
-	/*void Update()
+	void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			StartCoroutine(SendWinnerToTheSky(state.players[1]));
 			StartCoroutine(FadeToDark());
 		}
-	}*/
+	}
 
 	public void PressTile(int letterNum, RuneBehaviour tile)
 	{
@@ -280,7 +352,7 @@ public class LevelManager : MonoBehaviour {
 
 			yield return null;
 		}
-		Application.LoadLevel(0); //TODO Check this
+		Application.LoadLevel(1); //TODO Check this
 	}
 
     private void EnableKinematics(bool state)
