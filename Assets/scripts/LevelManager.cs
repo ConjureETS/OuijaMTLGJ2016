@@ -90,7 +90,7 @@ public class LevelManager : MonoBehaviour {
                 StartCoroutine(MoveSelectorToTile(tile));
                 
                 SoundManager.Instance.PlayRunePickup();
-
+                
 				//Do something
 				if (player.hasWon())
 				{
