@@ -21,9 +21,10 @@ public class RuneBehaviour : MonoBehaviour {
 			lightState -= Time.deltaTime / LightTime;
 			if (lightState < 0)
 				lightState = 0;
-			//symbol.color = new Color(1 - lightState, 1f, 1 - lightState);
+			symbol.color = new Color(1 - lightState, 1f, 1 - lightState);
 
-			symbol.color = new Color(1f - lightState * 0.5f, 1f - lightState * 0.8f, 1f);
+			//Mauve cool
+			//symbol.color = new Color(1f - lightState * 0.5f, 1f - lightState * 0.8f, 1f);
 
 
 			//symbol.color = new Color(1f - lightState * 0.4f, 1f - lightState * 0.4f, 1f);
