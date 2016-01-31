@@ -4,19 +4,12 @@ using System.Collections;
 public class MainCameraBehavior : MonoBehaviour {
 
     public Transform targetTransform;
-    public float y = 2.5f; // store the height value since it will never change
-    public float offsetZ = -2.2f;
-
-
-	
-////////////////////////////////////////////
-
-
-
 
     public float smooth = 1.5f;         // The relative speed at which the camera will catch up.
 
-    
+    public float screenCenterOffsetX = 0f;
+    public float screenCenterOffsetY = 0f;
+
     private Vector3 relCameraPos;       // The relative position of the camera from the targetTransform.
     private float relCameraPosMag;      // The distance of the camera from the targetTransform.
     private Vector3 newPos;             // The position the camera is trying to reach.
@@ -93,6 +86,10 @@ public class MainCameraBehavior : MonoBehaviour {
 
         // Create a rotation based on the relative position of the targetTransform being the forward vector.
         Quaternion lookAtRotation = Quaternion.LookRotation(reltargetTransformPosition, Vector3.up);
+
+        // give an offset to look at centering
+        lookAtRotation.x += screenCenterOffsetY;
+        lookAtRotation.y += screenCenterOffsetX;
 
         // Lerp the camera's rotation between it's current rotation and the rotation that looks at the targetTransform.
         transform.rotation = Quaternion.Lerp(transform.rotation, lookAtRotation, smooth * Time.deltaTime);
