@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class GUIGameplay : MonoBehaviour {
-
+    public const int boxHeight=90,boxWidth=50;
+    public const int offset = 10;
 	// Use this for initialization
 	void Start () {
 	    
@@ -14,33 +15,37 @@ public class GUIGameplay : MonoBehaviour {
 	}
     void OnGUI()
     {
-        
+        int x = 0;
         // Make the first button. If it is pressed, Application.Loadlevel (1) will be executed
-        for(int i = 0; i<GameState.Instance.players.Length;++i)
+        for (int i = 0; i<GameState.Instance.players.Length;++i)
         {
-            Color temp = GUI.color;
+            Player p = GameState.Instance.players[i];
+            GUIStyle boxStyle = new GUIStyle();
             string playerName = "";
+            Texture2D beardTex = null;
             switch (i)
             {
                 case 0:
-                    GUI.color = new Color(1, 1, 0, 0.5f);
                     playerName = "Yellow beard";
+                    beardTex = Resources.Load<Texture2D>("yellowbeard");
                     break;
                 case 1:
-                    GUI.color = new Color(1,0 , 0, 0.5f);
                     playerName = "Red beard";
+                    beardTex = Resources.Load<Texture2D>("redbeard");
                     break;
                 case 2:
-                    GUI.color = new Color(0, 0, 1, 0.5f);
                     playerName = "Black beard";
+                    beardTex = Resources.Load<Texture2D>("blackbeard");
                     break;
                 default:
                     break;
             }
+            //beardTex.Resize(10, 10);
+            int offset =(int) ((Screen.width  - 3 * boxWidth) / 4f);
+            x += offset ;
+            GUI.Box(new Rect(x , 0, boxWidth, 90), beardTex, boxStyle);
             
-            GUI.Box(new Rect(10+ Screen.width /3 * i , 10, 200, 90), playerName);
-            GUI.color = temp;
-            Player p = GameState.Instance.players[i];
+            
             
             for (int j = 0;j< p.letters.Length;++j)
             {
@@ -50,20 +55,20 @@ public class GUIGameplay : MonoBehaviour {
                // Debug.Log(p.score);
                 if (j+1 > p.index)
                 {
-                    
-                    temp = GUI.color ;
+                    Color temp = GUI.color ;
                     GUI.color = new Color(1f, 1f, 1f, 0.50f);
-                    GUI.DrawTexture(new Rect(20 + Screen.width / 3 * i + j * 30 + 20, 40, 30, 30), rune);
+                    GUI.DrawTexture(new Rect(x + j * 30 + 20 , 40, 30, 30), rune);
                     GUI.color = temp;
 
                 }
                 else
                 {
-                    GUI.DrawTexture(new Rect(20 + Screen.width / 3 * i + j * 30 + 20, 40, 30, 30), rune);
+                    GUI.DrawTexture(new Rect(x + j * 30 + 20 , 40, 30, 30), rune);
                 }
 
                 
             }
+            x += boxWidth;
         }
         
     }
