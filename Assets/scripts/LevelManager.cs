@@ -86,6 +86,8 @@ public class LevelManager : MonoBehaviour {
                 tile.symbol.color = PlayerColors[player.num - 1];
                 StartCoroutine(MoveSelectorToTile(tile));
 
+                SoundManager.Instance.PlayRunePickup();
+
 				//Do something
 				if (player.hasWon())
 				{

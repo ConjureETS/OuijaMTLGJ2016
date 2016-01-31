@@ -6,6 +6,7 @@ public class SoundManager : MonoBehaviour
     public AudioSource MainMenu;
     public AudioSource Gameplay;
     public AudioSource Scrapping;
+    public AudioSource RunePickup;
 
     public static SoundManager Instance
     {
@@ -70,6 +71,11 @@ public class SoundManager : MonoBehaviour
     public void StopScrappingSound()
     {
         Scrapping.Stop();
+    }
+
+    public void PlayRunePickup()
+    {
+        RunePickup.Play();
     }
 
 }

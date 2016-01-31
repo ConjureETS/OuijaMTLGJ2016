@@ -17,7 +17,7 @@ public class SelectorWithBolts : MonoBehaviour
 
     private SoundManager sm;
 
-    public float scrappingSoundThreshold = 1f;
+    public float scrappingSoundThreshold = 0.4f;
     public float scrappingSoundVolumeFactor = 0.05f;
 
     void Awake()
