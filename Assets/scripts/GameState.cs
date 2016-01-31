@@ -10,8 +10,8 @@ public class GameState {
 
 	public int numPlayers = 3;
 	public int wordLength = 5;
-	public int numRows = 50;
-	public int numColumns = 30;
+	public int numRows = 12;
+	public int numColumns = 8;
 	public Player[] players;
 
 	private GameState()

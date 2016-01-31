@@ -8,13 +8,16 @@ public class LevelManager : MonoBehaviour {
 
 	public float xScale = 1f;
 	public float yScale = 0.8f;
+	public float colSpacing = 0f;
+	public float rowSpacing = 0f;
+
 	public float dimension = 0.6f;
 	public GameObject hexagon;
     public Color[] PlayerColors;
 	private float ratio = Mathf.Sqrt(1 - 0.5f * 0.5f);
 	private GameState state;
 	private List<RuneBehaviour> runes = new List<RuneBehaviour>();
-    
+
 
     private SelectorWithBolts Selector;
     private GameObject PhysicsContainer;
@@ -53,8 +56,8 @@ public class LevelManager : MonoBehaviour {
 				hex.transform.localScale = new Vector3(xScale, yScale, 1f);
 
 				hex.transform.localPosition = new Vector3(
-						(3f * dimension * col + 1.5f * dimension * (row % 2)) * xScale - xOffset,
-						(row * ratio * dimension) * yScale - yOffset, 0f);
+						((3f+colSpacing) * dimension * col + 1.5f * dimension * (row % 2)) * xScale - xOffset,
+						(row * (ratio * dimension + rowSpacing)) * yScale - yOffset, 0f);
 
 				hex.transform.localRotation = Quaternion.identity;
 
