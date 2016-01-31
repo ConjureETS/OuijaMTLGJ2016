@@ -24,6 +24,8 @@ public class Character : MonoBehaviour
 
     private Vector3 dashForward;
 
+    private ParticleSystem particleSys;
+
     public int PlayerID
     {
         get { return playerId; }
@@ -33,6 +35,7 @@ public class Character : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        particleSys = GetComponent<ParticleSystem>();
     }
 
     void Start()
@@ -91,6 +94,8 @@ public class Character : MonoBehaviour
         selector.ReplenishPlayerDashMeter(playerId);
 
         dashRemainingTime = DashCooldown;
+
+        //particleSys.Play();
 
         StartCoroutine(DashCoroutine());
         
