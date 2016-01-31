@@ -2,8 +2,8 @@
 using System.Collections;
 
 public class GUIGameplay : MonoBehaviour {
-    public const int boxHeight=90,boxWidth=50;
-    public const int offset = 10;
+    public const int boxHeight=90,boxWidth=70;
+    public int offset = 10;
 	// Use this for initialization
 	void Start () {
 	    
@@ -41,8 +41,8 @@ public class GUIGameplay : MonoBehaviour {
                     break;
             }
             //beardTex.Resize(10, 10);
-            int offset = (int)((Screen.width  - 3 * boxWidth) / 5f);
-			x = (int) (((Screen.width - boxWidth*3) / 3 * (1+1/6) * i) + (Screen.width - boxWidth*3)/6);
+            //int offset = (int)((Screen.width  - 3 * boxWidth) / 5f);
+			x = (int) (offset + Screen.width / 3 * i);
 
             GUI.Box(new Rect(x , 0, boxWidth, 90), beardTex, boxStyle);
             
