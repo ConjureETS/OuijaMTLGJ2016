@@ -15,7 +15,7 @@ MonoBehaviour:
   - name: Normal
     ButtonActions:
     - name: Dash
-      XboxButtons: 02000000
+      XboxButtons: 02000000000000000100000003000000
       KeyboardKeys: 
     AxisRanges:
     - name: MoveLeft
@@ -33,5 +33,12 @@ MonoBehaviour:
     ButtonStates: []
   - name: CinematicEvent
     ButtonActions: []
+    AxisRanges: []
+    ButtonStates: []
+  - name: Menu
+    ButtonActions:
+    - name: Dash
+      XboxButtons: 00000000010000000200000003000000
+      KeyboardKeys: 
     AxisRanges: []
     ButtonStates: []

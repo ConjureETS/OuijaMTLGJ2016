@@ -7,6 +7,7 @@ public class SoundManager : MonoBehaviour
     public AudioSource Gameplay;
     public AudioSource Scrapping;
     public AudioSource RunePickup;
+    public AudioSource ShortHorn;
 
     public static SoundManager Instance
     {
@@ -76,6 +77,11 @@ public class SoundManager : MonoBehaviour
     public void PlayRunePickup()
     {
         RunePickup.Play();
+    }
+
+    public void PlayShortHorn()
+    {
+        ShortHorn.Play();
     }
 
 }

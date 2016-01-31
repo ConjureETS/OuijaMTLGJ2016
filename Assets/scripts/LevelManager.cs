@@ -78,6 +78,9 @@ public class LevelManager : MonoBehaviour {
 
         Selector = GameObject.FindObjectOfType<SelectorWithBolts>();
         PhysicsContainer = GameObject.Find("PhysicsContainer");
+
+        //play start sound
+        SoundManager.Instance.PlayShortHorn();
 	}
 
 	void Update()

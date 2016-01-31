@@ -1428,7 +1428,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119668}
   m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106709}
-  m_LocalPosition: {x: 0, y: .100000001, z: -.848399997}
+  m_LocalPosition: {x: 0, y: .100000001, z: -.855005205}
   m_LocalScale: {x: .0219999999, y: .0219999999, z: .0219999999}
   m_Children:
   - {fileID: 460868}
@@ -1532,7 +1532,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 122180}
   m_LocalRotation: {x: -.353553325, y: .612372458, z: .612372577, w: .353553265}
-  m_LocalPosition: {x: -.732599974, y: .100000001, z: .423099995}
+  m_LocalPosition: {x: -.740400016, y: .100000001, z: .427599996}
   m_LocalScale: {x: .0219999999, y: .0219999999, z: .0219999999}
   m_Children:
   - {fileID: 400966}
@@ -2005,7 +2005,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149060}
   m_LocalRotation: {x: .612372518, y: .353553414, z: -.353553474, w: .612372398}
-  m_LocalPosition: {x: .73299998, y: .100000001, z: .423000008}
+  m_LocalPosition: {x: .740400016, y: .100000001, z: .427599996}
   m_LocalScale: {x: .0219999999, y: .0219999999, z: .0219999999}
   m_Children:
   - {fileID: 495602}
@@ -2205,7 +2205,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190828}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -.786000013}
+  m_LocalPosition: {x: 0, y: 0, z: -.786263287}
   m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
   m_Children: []
   m_Father: {fileID: 447650}
@@ -8020,6 +8020,8 @@ MonoBehaviour:
   - {r: .448275924, g: 1, b: 0, a: 1}
   - {r: 1, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  scrappingSoundThreshold: .400000006
+  scrappingSoundVolumeFactor: .400000006
 --- !u!136 &13625710
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -8345,6 +8347,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: scrappingSoundThreshold
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: scrappingSoundVolumeFactor
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
