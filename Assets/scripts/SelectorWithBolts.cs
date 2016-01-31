@@ -69,7 +69,7 @@ public class SelectorWithBolts : MonoBehaviour
             
             elapsedTime += Time.deltaTime;
             int cylinderIndex = (int)(elapsedTime * cylindersCount / DASH_COOLDOWN - 1);
-            Debug.Log(cylinderIndex);
+
             playerCylinders[playerId][cylinderIndex].material.color = DashColors[playerId];
 
             yield return null;

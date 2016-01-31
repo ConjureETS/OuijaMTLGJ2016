@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
+using System.Collections;
+using InputHandler;
 
 public class LevelManager : MonoBehaviour {
 
@@ -11,6 +13,10 @@ public class LevelManager : MonoBehaviour {
 	private float ratio = Mathf.Sqrt(1 - 0.5f * 0.5f);
 	private GameState state;
 	private List<RuneBehaviour> runes = new List<RuneBehaviour>();
+    
+
+    private SelectorWithBolts Selector;
+    private GameObject PhysicsContainer;
 
 	// Use this for initialization
 	void Start()
@@ -62,14 +68,19 @@ public class LevelManager : MonoBehaviour {
 		{
 			player.SetWord(WordGen.GetWord(numLetters));
 		}
+
+        Selector = GameObject.FindObjectOfType<SelectorWithBolts>();
+        PhysicsContainer = GameObject.Find("PhysicsContainer");
 	}
 
-	public void PressTile(int letterNum)
+	public void PressTile(int letterNum, RuneBehaviour tile)
 	{
 		foreach (Player player in state.players)
 		{
 			if (player.hasNextLetter(letterNum))
 			{
+                StartCoroutine(MoveSelectorToTile(tile));
+
 				//Do something
 				if (player.hasWon())
 				{
@@ -81,9 +92,110 @@ public class LevelManager : MonoBehaviour {
 		}
 	}
 
-	// Update is called once per frame
-	void Update()
-	{
+    private IEnumerator MoveSelectorToTile(RuneBehaviour tile)
+    {
+        for (int i = 0; i < 3; i++)
+		{
+            InputManager.Instance.PushActiveContext("CinematicEvent", i);
+		}
 
-	}
+        tile.GetComponent<CapsuleCollider>().enabled = false;
+        tile.GetComponent<SpriteRenderer>().sortingOrder = 100;
+        tile.symbol.sortingOrder = 101;
+
+        EnableKinematics(true);
+
+        Transform trans = PhysicsContainer.GetComponent<Transform>();
+
+        Vector3 startPos = trans.position;
+        Vector3 endPos = startPos + tile.GetComponent<Transform>().position - Selector.GetComponent<Transform>().position; ;
+        endPos.y = startPos.y;
+
+        float ratio = 0f;
+
+        while (ratio < 1f)
+        {
+            ratio += Time.deltaTime / 0.25f;
+
+            trans.position = Vector3.Lerp(startPos, endPos, ratio);
+
+            yield return null;
+        }
+
+        StartCoroutine(LiftTileInTheAir(tile));
+    }
+
+    private IEnumerator LiftTileInTheAir(RuneBehaviour tile)
+    {
+        float ratio = 0f;
+
+        Transform trans = tile.GetComponent<Transform>();
+        Transform cameraTrans = Camera.main.GetComponent<Transform>();
+
+        Vector3 startPos = trans.position;
+        
+
+        Quaternion startRot = trans.rotation;
+        
+
+        while (ratio < 1f)
+        {
+            // The camera might move, so we recalculate the end position every frame
+            Vector3 endPos = cameraTrans.position + cameraTrans.forward * 10f;//trans.position + new Vector3(0f, 5f, 0f);
+            Quaternion endRot = Quaternion.LookRotation(cameraTrans.forward);
+
+            ratio += Time.deltaTime / 2f;
+
+            trans.position = Vector3.Lerp(startPos, endPos, ratio);
+            trans.rotation = Quaternion.Slerp(startRot, endRot, ratio);
+
+            yield return null;
+        }
+
+        yield return new WaitForSeconds(0.5f);
+
+        StartCoroutine(SendTileToUI(tile));
+    }
+
+    private IEnumerator SendTileToUI(RuneBehaviour tile)
+    {
+        Transform trans = tile.GetComponent<Transform>();
+
+        Vector3 startPos = trans.position;
+
+        Vector3 startScale = trans.localScale;
+        Vector3 endScale = Vector3.one * 0.03f;
+
+        float ratio = 0f;
+        while (ratio < 1f)
+        {
+            ratio += Time.deltaTime / 0.5f;
+
+            Vector3 endPos = Camera.main.ViewportToWorldPoint(new Vector3(0.9f, 0.9f, Camera.main.nearClipPlane + 0.1f));
+
+            trans.position = Vector3.Lerp(startPos, endPos, ratio);
+            trans.localScale = Vector3.Lerp(startScale, endScale, ratio);
+
+            yield return null;
+        }
+
+        // At the end of it all, we re-enabled the controls
+        for (int i = 0; i < 3; i++)
+        {
+            InputManager.Instance.PushActiveContext("Normal", i);
+        }
+
+        EnableKinematics(false);
+        Destroy(tile.gameObject);
+    }
+
+    private void EnableKinematics(bool state)
+    {
+        Rigidbody[] rbs = PhysicsContainer.GetComponentsInChildren<Rigidbody>();
+
+        foreach (Rigidbody rb in rbs)
+        {
+            rb.isKinematic = state;
+        }
+    }
 }

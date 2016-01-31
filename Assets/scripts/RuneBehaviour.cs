@@ -42,20 +42,24 @@ public class RuneBehaviour : MonoBehaviour {
                 symbol.color = currentCharacter.TrailColor;
             }
         }
+        else if (col.gameObject.tag == "Ouija")
+        {
+            GameState.Instance.currentLevel.PressTile(letterNum, this);
+        }
     }
 
     void OnTriggerExit(Collider col)
     {
         if (col.gameObject.tag == "Player" && currentCharacter != null && currentCharacter.gameObject == col.gameObject)
         {
+            currentCharacter = null;
+
             StartCoroutine(FadeColorOut());
         }
     }
 
     private IEnumerator FadeColorOut()
     {
-        currentCharacter = null;
-
         Color startColor = symbol.color;
 
         float ratio = 0f;

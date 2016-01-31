@@ -31,7 +31,7 @@ MonoBehaviour:
       Axis: 03000000
       KeyboardKeys: 
     ButtonStates: []
-  - name: Dashing
+  - name: CinematicEvent
     ButtonActions: []
     AxisRanges: []
     ButtonStates: []
