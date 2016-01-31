@@ -1379,8 +1379,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 136786}
-  m_LocalRotation: {x: 0.0000000149011585, y: 0.7071068, z: 0.0000000149011585, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 3.35, z: 0}
+  m_LocalRotation: {x: 1.49011585e-08, y: .707106829, z: 1.49011585e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 3.3499999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1391,8 +1391,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 122986}
-  m_LocalRotation: {x: -0.000000007450579, y: 0.70710695, z: -0.000000052154054, w: 0.7071066}
-  m_LocalPosition: {x: 0, y: 40.83, z: 0}
+  m_LocalRotation: {x: -7.45057882e-09, y: .707106948, z: -5.21540535e-08, w: .70710659}
+  m_LocalPosition: {x: 0, y: 40.8300018, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1403,8 +1403,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108134}
-  m_LocalRotation: {x: 0.000000014901158, y: 0.7071069, z: -0.000000044703476, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 15.09, z: 0}
+  m_LocalRotation: {x: 1.49011576e-08, y: .707106888, z: -4.47034765e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 15.0900002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -1415,8 +1415,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 131150}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: -1.16, z: 0}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: -0, y: -1.15999997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1427,9 +1427,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119668}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 0.1, z: -0.8484}
-  m_LocalScale: {x: 0.022, y: 0.022, z: 0.022}
+  m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106709}
+  m_LocalPosition: {x: 0, y: .100000001, z: -.855005205}
+  m_LocalScale: {x: .0219999999, y: .0219999999, z: .0219999999}
   m_Children:
   - {fileID: 460868}
   - {fileID: 434884}
@@ -1459,8 +1459,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154648}
-  m_LocalRotation: {x: 0.0000000149011585, y: 0.7071068, z: 0.0000000149011585, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 3.35, z: 0}
+  m_LocalRotation: {x: 1.49011585e-08, y: .707106829, z: 1.49011585e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 3.3499999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -1471,8 +1471,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184018}
-  m_LocalRotation: {x: 0.000000022351738, y: 0.7071069, z: -0.00000005960463, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 33.72, z: 0}
+  m_LocalRotation: {x: 2.23517382e-08, y: .707106888, z: -5.96046306e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 33.7200012, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -1483,8 +1483,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110952}
-  m_LocalRotation: {x: 0, y: 0.7071069, z: -0.00000004470348, w: 0.70710677}
-  m_LocalPosition: {x: -0, y: 8.04, z: 0}
+  m_LocalRotation: {x: 0, y: .707106888, z: -4.470348e-08, w: .707106769}
+  m_LocalPosition: {x: -0, y: 8.03999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -1495,8 +1495,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 135650}
-  m_LocalRotation: {x: -0.00000002235174, y: 0.7071069, z: 0.00000002235174, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 1.08, z: 0}
+  m_LocalRotation: {x: -2.235174e-08, y: .707106888, z: 2.235174e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 1.08000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1507,8 +1507,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 195870}
-  m_LocalRotation: {x: -0.00000002235174, y: 0.7071069, z: 0.00000002235174, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 22.22, z: 0}
+  m_LocalRotation: {x: -2.235174e-08, y: .707106888, z: 2.235174e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 22.2199993, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -1519,8 +1519,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155282}
-  m_LocalRotation: {x: 0, y: 0.7071069, z: -0.00000004470348, w: 0.70710677}
-  m_LocalPosition: {x: -0, y: 8.04, z: 0}
+  m_LocalRotation: {x: 0, y: .707106888, z: -4.470348e-08, w: .707106769}
+  m_LocalPosition: {x: -0, y: 8.03999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1531,9 +1531,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 122180}
-  m_LocalRotation: {x: -0.35355332, y: 0.61237246, z: 0.6123726, w: 0.35355327}
-  m_LocalPosition: {x: -0.7326, y: 0.1, z: 0.4231}
-  m_LocalScale: {x: 0.022, y: 0.022, z: 0.022}
+  m_LocalRotation: {x: -.353553325, y: .612372458, z: .612372577, w: .353553265}
+  m_LocalPosition: {x: -.740400016, y: .100000001, z: .427599996}
+  m_LocalScale: {x: .0219999999, y: .0219999999, z: .0219999999}
   m_Children:
   - {fileID: 400966}
   - {fileID: 408722}
@@ -1563,8 +1563,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175174}
-  m_LocalRotation: {x: 0.000000029802319, y: 0.707107, z: -0.0000000372529, w: 0.70710665}
-  m_LocalPosition: {x: 0, y: 43.15, z: 0}
+  m_LocalRotation: {x: 2.98023188e-08, y: .707107008, z: -3.72528994e-08, w: .70710665}
+  m_LocalPosition: {x: 0, y: 43.1500015, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1576,7 +1576,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 195724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.165, z: 0}
+  m_LocalPosition: {x: 0, y: -.165000007, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 447650}
@@ -1588,8 +1588,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.75, z: 0}
-  m_LocalScale: {x: 1, y: 13.53, z: 1}
+  m_LocalPosition: {x: 0, y: .75, z: 0}
+  m_LocalScale: {x: 1, y: 13.5299997, z: 1}
   m_Children: []
   m_Father: {fileID: 447650}
   m_RootOrder: 7
@@ -1599,8 +1599,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123922}
-  m_LocalRotation: {x: -0.000000007450579, y: 0.70710695, z: -0.000000052154054, w: 0.7071066}
-  m_LocalPosition: {x: 0, y: 19.77, z: -0}
+  m_LocalRotation: {x: -7.45057882e-09, y: .707106948, z: -5.21540535e-08, w: .70710659}
+  m_LocalPosition: {x: 0, y: 19.7700005, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1611,8 +1611,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108238}
-  m_LocalRotation: {x: 0.000000022351738, y: 0.7071069, z: -0.00000005960463, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 12.7, z: 0}
+  m_LocalRotation: {x: 2.23517382e-08, y: .707106888, z: -5.96046306e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 12.6999998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1623,8 +1623,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 183268}
-  m_LocalRotation: {x: 0.000000029802319, y: 0.707107, z: -0.0000000372529, w: 0.70710665}
-  m_LocalPosition: {x: 0, y: 43.15, z: 0}
+  m_LocalRotation: {x: 2.98023188e-08, y: .707107008, z: -3.72528994e-08, w: .70710665}
+  m_LocalPosition: {x: 0, y: 43.1500015, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1635,8 +1635,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 167858}
-  m_LocalRotation: {x: -0.00000002235174, y: 0.7071069, z: 0.00000002235174, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 22.22, z: 0}
+  m_LocalRotation: {x: -2.235174e-08, y: .707106888, z: 2.235174e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 22.2199993, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1647,8 +1647,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 118014}
-  m_LocalRotation: {x: 0, y: 0.707107, z: -0.0000000372529, w: 0.70710665}
-  m_LocalPosition: {x: -0, y: 17.45, z: 0}
+  m_LocalRotation: {x: 0, y: .707107008, z: -3.72528994e-08, w: .70710665}
+  m_LocalPosition: {x: -0, y: 17.4500008, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -1661,7 +1661,7 @@ Transform:
   m_GameObject: {fileID: 161610}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: .200000003, y: .200000003, z: .200000003}
   m_Children: []
   m_Father: {fileID: 447650}
   m_RootOrder: 8
@@ -1671,8 +1671,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121064}
-  m_LocalRotation: {x: 0, y: 0.7071069, z: -0.00000004470348, w: 0.70710677}
-  m_LocalPosition: {x: -0, y: 8.04, z: 0}
+  m_LocalRotation: {x: 0, y: .707106888, z: -4.470348e-08, w: .707106769}
+  m_LocalPosition: {x: -0, y: 8.03999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1683,8 +1683,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 177076}
-  m_LocalRotation: {x: -0.000000014901159, y: 0.7071069, z: -0.000000014901159, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 5.71, z: 0}
+  m_LocalRotation: {x: -1.49011594e-08, y: .707106888, z: -1.49011594e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 5.71000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1695,8 +1695,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113864}
-  m_LocalRotation: {x: 0.000000014901158, y: 0.7071069, z: -0.000000044703476, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 36.08, z: 0}
+  m_LocalRotation: {x: 1.49011576e-08, y: .707106888, z: -4.47034765e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 36.0800018, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1707,8 +1707,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 117896}
-  m_LocalRotation: {x: -0.000000014901159, y: 0.7071069, z: -0.000000014901159, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 26.73, z: 0}
+  m_LocalRotation: {x: -1.49011594e-08, y: .707106888, z: -1.49011594e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 26.7299995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1719,8 +1719,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108120}
-  m_LocalRotation: {x: -0.000000014901159, y: 0.7071069, z: -0.000000014901159, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 26.73, z: 0}
+  m_LocalRotation: {x: -1.49011594e-08, y: .707106888, z: -1.49011594e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 26.7299995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1731,8 +1731,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 153250}
-  m_LocalRotation: {x: -0.000000007450579, y: 0.70710695, z: -0.000000052154054, w: 0.7071066}
-  m_LocalPosition: {x: 0, y: 40.83, z: 0}
+  m_LocalRotation: {x: -7.45057882e-09, y: .707106948, z: -5.21540535e-08, w: .70710659}
+  m_LocalPosition: {x: 0, y: 40.8300018, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1743,8 +1743,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155284}
-  m_LocalRotation: {x: 0, y: 0.707107, z: -0.0000000372529, w: 0.70710665}
-  m_LocalPosition: {x: 0, y: 38.47, z: 0}
+  m_LocalRotation: {x: 0, y: .707107008, z: -3.72528994e-08, w: .70710665}
+  m_LocalPosition: {x: 0, y: 38.4700012, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1755,8 +1755,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190834}
-  m_LocalRotation: {x: -0.00000002235174, y: 0.7071069, z: 0.00000002235174, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 1.08, z: 0}
+  m_LocalRotation: {x: -2.235174e-08, y: .707106888, z: 2.235174e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 1.08000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1767,8 +1767,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 144498}
-  m_LocalRotation: {x: -0.00000002235174, y: 0.7071069, z: 0.00000002235174, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 1.08, z: 0}
+  m_LocalRotation: {x: -2.235174e-08, y: .707106888, z: 2.235174e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 1.08000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -1779,8 +1779,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 198056}
-  m_LocalRotation: {x: 0, y: 0.707107, z: -0.0000000372529, w: 0.70710665}
-  m_LocalPosition: {x: -0, y: 17.45, z: 0}
+  m_LocalRotation: {x: 0, y: .707107008, z: -3.72528994e-08, w: .70710665}
+  m_LocalPosition: {x: -0, y: 17.4500008, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1791,8 +1791,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175456}
-  m_LocalRotation: {x: 0, y: 0.707107, z: -0.0000000372529, w: 0.70710665}
-  m_LocalPosition: {x: 0, y: 38.47, z: 0}
+  m_LocalRotation: {x: 0, y: .707107008, z: -3.72528994e-08, w: .70710665}
+  m_LocalPosition: {x: 0, y: 38.4700012, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1803,8 +1803,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159352}
-  m_LocalRotation: {x: 0, y: 0.707107, z: -0.0000000372529, w: 0.70710665}
-  m_LocalPosition: {x: -0, y: 17.45, z: 0}
+  m_LocalRotation: {x: 0, y: .707107008, z: -3.72528994e-08, w: .70710665}
+  m_LocalPosition: {x: -0, y: 17.4500008, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1815,8 +1815,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 135988}
-  m_LocalRotation: {x: -0.000000014901159, y: 0.7071069, z: -0.000000014901159, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 5.71, z: 0}
+  m_LocalRotation: {x: -1.49011594e-08, y: .707106888, z: -1.49011594e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 5.71000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1827,8 +1827,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 105298}
-  m_LocalRotation: {x: 0.000000007450579, y: 0.7071069, z: -0.00000007450579, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 10.34, z: 0}
+  m_LocalRotation: {x: 7.45057882e-09, y: .707106888, z: -7.45057918e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 10.3400002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1860,8 +1860,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166432}
-  m_LocalRotation: {x: 0.0000000149011585, y: 0.7071068, z: 0.0000000149011585, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 24.46, z: 0}
+  m_LocalRotation: {x: 1.49011585e-08, y: .707106829, z: 1.49011585e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 24.4599991, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -1872,8 +1872,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106784}
-  m_LocalRotation: {x: 0, y: 0.7071069, z: -0.00000004470348, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 29.09, z: 0}
+  m_LocalRotation: {x: 0, y: .707106888, z: -4.470348e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 29.0900002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -1884,8 +1884,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188534}
-  m_LocalRotation: {x: -0.00000002235174, y: 0.7071069, z: 0.00000002235174, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 22.22, z: 0}
+  m_LocalRotation: {x: -2.235174e-08, y: .707106888, z: 2.235174e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 22.2199993, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1896,8 +1896,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162206}
-  m_LocalRotation: {x: 0.000000022351738, y: 0.7071069, z: -0.00000005960463, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 12.7, z: 0}
+  m_LocalRotation: {x: 2.23517382e-08, y: .707106888, z: -5.96046306e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 12.6999998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1908,8 +1908,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 148820}
-  m_LocalRotation: {x: 0.000000014901158, y: 0.7071069, z: -0.000000044703476, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 15.09, z: 0}
+  m_LocalRotation: {x: 1.49011576e-08, y: .707106888, z: -4.47034765e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 15.0900002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1920,8 +1920,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 170148}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: -1.16, z: 0}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: -0, y: -1.15999997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -1932,8 +1932,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188332}
-  m_LocalRotation: {x: 0.000000007450579, y: 0.7071069, z: -0.00000007450579, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 31.42, z: 0}
+  m_LocalRotation: {x: 7.45057882e-09, y: .707106888, z: -7.45057918e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 31.4200001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -1944,8 +1944,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174324}
-  m_LocalRotation: {x: 0.000000022351738, y: 0.7071069, z: -0.00000005960463, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 12.7, z: 0}
+  m_LocalRotation: {x: 2.23517382e-08, y: .707106888, z: -5.96046306e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 12.6999998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -1956,8 +1956,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 104184}
-  m_LocalRotation: {x: 0.000000014901158, y: 0.7071069, z: -0.000000044703476, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 36.08, z: 0}
+  m_LocalRotation: {x: 1.49011576e-08, y: .707106888, z: -4.47034765e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 36.0800018, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -1968,8 +1968,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 172490}
-  m_LocalRotation: {x: 0.000000029802319, y: 0.707107, z: -0.0000000372529, w: 0.70710665}
-  m_LocalPosition: {x: 0, y: 43.15, z: 0}
+  m_LocalRotation: {x: 2.98023188e-08, y: .707107008, z: -3.72528994e-08, w: .70710665}
+  m_LocalPosition: {x: 0, y: 43.1500015, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -1980,9 +1980,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 197982}
-  m_LocalRotation: {x: 0, y: 0.8660255, z: 0, w: 0.49999988}
-  m_LocalPosition: {x: -0.681, y: 0, z: 0.393}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalRotation: {x: 0, y: .866025507, z: 0, w: .499999881}
+  m_LocalPosition: {x: -.680999994, y: 0, z: .393000007}
+  m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
   m_Children: []
   m_Father: {fileID: 447650}
   m_RootOrder: 4
@@ -1992,8 +1992,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191798}
-  m_LocalRotation: {x: 0.000000007450579, y: 0.7071069, z: -0.00000007450579, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 10.34, z: 0}
+  m_LocalRotation: {x: 7.45057882e-09, y: .707106888, z: -7.45057918e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 10.3400002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -2004,9 +2004,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149060}
-  m_LocalRotation: {x: 0.6123725, y: 0.3535534, z: -0.35355347, w: 0.6123724}
-  m_LocalPosition: {x: 0.733, y: 0.1, z: 0.423}
-  m_LocalScale: {x: 0.022, y: 0.022, z: 0.022}
+  m_LocalRotation: {x: .612372518, y: .353553414, z: -.353553474, w: .612372398}
+  m_LocalPosition: {x: .740400016, y: .100000001, z: .427599996}
+  m_LocalScale: {x: .0219999999, y: .0219999999, z: .0219999999}
   m_Children:
   - {fileID: 495602}
   - {fileID: 434218}
@@ -2036,8 +2036,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199332}
-  m_LocalRotation: {x: 0.000000007450579, y: 0.7071069, z: -0.00000007450579, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 31.42, z: 0}
+  m_LocalRotation: {x: 7.45057882e-09, y: .707106888, z: -7.45057918e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 31.4200001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -2048,8 +2048,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123164}
-  m_LocalRotation: {x: 0.000000014901158, y: 0.7071069, z: -0.000000044703476, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 15.09, z: 0}
+  m_LocalRotation: {x: 1.49011576e-08, y: .707106888, z: -4.47034765e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 15.0900002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -2060,8 +2060,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191702}
-  m_LocalRotation: {x: 0, y: 0.7071069, z: -0.00000004470348, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 29.09, z: 0}
+  m_LocalRotation: {x: 0, y: .707106888, z: -4.470348e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 29.0900002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -2072,8 +2072,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129138}
-  m_LocalRotation: {x: 0.0000000149011585, y: 0.7071068, z: 0.0000000149011585, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 3.35, z: 0}
+  m_LocalRotation: {x: 1.49011585e-08, y: .707106829, z: 1.49011585e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 3.3499999, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -2084,9 +2084,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 127510}
-  m_LocalRotation: {x: 0, y: 0.50000006, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0.681, y: 0, z: 0.393}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalRotation: {x: 0, y: .50000006, z: 0, w: .866025388}
+  m_LocalPosition: {x: .680999994, y: 0, z: .393000007}
+  m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
   m_Children: []
   m_Father: {fileID: 447650}
   m_RootOrder: 6
@@ -2096,8 +2096,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 187480}
-  m_LocalRotation: {x: 0.0000000149011585, y: 0.7071068, z: 0.0000000149011585, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 24.46, z: 0}
+  m_LocalRotation: {x: 1.49011585e-08, y: .707106829, z: 1.49011585e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 24.4599991, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -2108,8 +2108,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 167296}
-  m_LocalRotation: {x: -0.000000007450579, y: 0.70710695, z: -0.000000052154054, w: 0.7071066}
-  m_LocalPosition: {x: 0, y: 19.77, z: -0}
+  m_LocalRotation: {x: -7.45057882e-09, y: .707106948, z: -5.21540535e-08, w: .70710659}
+  m_LocalPosition: {x: 0, y: 19.7700005, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -2120,8 +2120,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 150318}
-  m_LocalRotation: {x: -0.000000014901159, y: 0.7071069, z: -0.000000014901159, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 5.71, z: 0}
+  m_LocalRotation: {x: -1.49011594e-08, y: .707106888, z: -1.49011594e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 5.71000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -2132,8 +2132,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 165934}
-  m_LocalRotation: {x: 0, y: 0.7071069, z: -0.00000004470348, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 29.09, z: 0}
+  m_LocalRotation: {x: 0, y: .707106888, z: -4.470348e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 29.0900002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -2144,8 +2144,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108026}
-  m_LocalRotation: {x: 0, y: 0.707107, z: -0.0000000372529, w: 0.70710665}
-  m_LocalPosition: {x: 0, y: 38.47, z: 0}
+  m_LocalRotation: {x: 0, y: .707107008, z: -3.72528994e-08, w: .70710665}
+  m_LocalPosition: {x: 0, y: 38.4700012, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -2156,8 +2156,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 150906}
-  m_LocalRotation: {x: 0.0000000149011585, y: 0.7071068, z: 0.0000000149011585, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 24.46, z: 0}
+  m_LocalRotation: {x: 1.49011585e-08, y: .707106829, z: 1.49011585e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 24.4599991, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -2168,8 +2168,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 112488}
-  m_LocalRotation: {x: 0.000000007450579, y: 0.7071069, z: -0.00000007450579, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 10.34, z: 0}
+  m_LocalRotation: {x: 7.45057882e-09, y: .707106888, z: -7.45057918e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 10.3400002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -2180,8 +2180,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125406}
-  m_LocalRotation: {x: -0.000000007450579, y: 0.70710695, z: -0.000000052154054, w: 0.7071066}
-  m_LocalPosition: {x: 0, y: 19.77, z: -0}
+  m_LocalRotation: {x: -7.45057882e-09, y: .707106948, z: -5.21540535e-08, w: .70710659}
+  m_LocalPosition: {x: 0, y: 19.7700005, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -2192,8 +2192,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166336}
-  m_LocalRotation: {x: 0.000000022351738, y: 0.7071069, z: -0.00000005960463, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 33.72, z: 0}
+  m_LocalRotation: {x: 2.23517382e-08, y: .707106888, z: -5.96046306e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 33.7200012, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 410852}
@@ -2205,8 +2205,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190828}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.786}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalPosition: {x: 0, y: 0, z: -.786263287}
+  m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
   m_Children: []
   m_Father: {fileID: 447650}
   m_RootOrder: 5
@@ -2216,8 +2216,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101536}
-  m_LocalRotation: {x: -0.000000007450579, y: 0.70710695, z: -0.000000052154054, w: 0.7071066}
-  m_LocalPosition: {x: 0, y: 40.83, z: 0}
+  m_LocalRotation: {x: -7.45057882e-09, y: .707106948, z: -5.21540535e-08, w: .70710659}
+  m_LocalPosition: {x: 0, y: 40.8300018, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -2228,8 +2228,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 177696}
-  m_LocalRotation: {x: 0.000000022351738, y: 0.7071069, z: -0.00000005960463, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 33.72, z: 0}
+  m_LocalRotation: {x: 2.23517382e-08, y: .707106888, z: -5.96046306e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 33.7200012, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -2240,8 +2240,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 172132}
-  m_LocalRotation: {x: -0.000000014901159, y: 0.7071069, z: -0.000000014901159, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 26.73, z: 0}
+  m_LocalRotation: {x: -1.49011594e-08, y: .707106888, z: -1.49011594e-08, w: .707106769}
+  m_LocalPosition: {x: 0, y: 26.7299995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -2252,8 +2252,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 115640}
-  m_LocalRotation: {x: 0.000000007450579, y: 0.7071069, z: -0.00000007450579, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 31.42, z: 0}
+  m_LocalRotation: {x: 7.45057882e-09, y: .707106888, z: -7.45057918e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 31.4200001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -2264,8 +2264,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171658}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: -1.16, z: 0}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: -0, y: -1.15999997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466070}
@@ -2276,8 +2276,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137130}
-  m_LocalRotation: {x: 0.000000014901158, y: 0.7071069, z: -0.000000044703476, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 36.08, z: 0}
+  m_LocalRotation: {x: 1.49011576e-08, y: .707106888, z: -4.47034765e-08, w: .707106709}
+  m_LocalPosition: {x: 0, y: 36.0800018, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402326}
@@ -2300,10 +2300,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2326,10 +2324,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2352,10 +2348,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2378,10 +2372,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2404,10 +2396,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2430,10 +2420,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2456,10 +2444,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2482,10 +2468,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2508,10 +2492,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2534,10 +2516,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2560,10 +2540,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2586,10 +2564,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2612,10 +2588,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2638,10 +2612,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2664,10 +2636,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2690,10 +2660,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2716,10 +2684,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2742,10 +2708,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2768,10 +2732,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2794,10 +2756,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2820,10 +2780,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2846,10 +2804,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2872,10 +2828,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2898,10 +2852,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2924,10 +2876,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2950,10 +2900,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -2976,10 +2924,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3002,10 +2948,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3028,10 +2972,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3054,10 +2996,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3080,10 +3020,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3106,10 +3044,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3132,10 +3068,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3158,10 +3092,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3184,10 +3116,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3210,10 +3140,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3236,10 +3164,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3262,10 +3188,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3288,10 +3212,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3314,10 +3236,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3340,10 +3260,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3366,10 +3284,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3392,10 +3308,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3418,10 +3332,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3444,10 +3356,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3470,10 +3380,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3496,10 +3404,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3522,10 +3428,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3548,10 +3452,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3574,10 +3476,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3600,10 +3500,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3626,10 +3524,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3652,10 +3548,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3678,10 +3572,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3704,10 +3596,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3730,10 +3620,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3756,10 +3644,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3782,10 +3668,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3808,10 +3692,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3834,10 +3716,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3860,10 +3740,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3886,10 +3764,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3912,10 +3788,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -3938,10 +3812,8 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -4410,7 +4282,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4425,7 +4297,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4440,7 +4312,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4455,7 +4327,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4470,7 +4342,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4485,7 +4357,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4500,7 +4372,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4515,7 +4387,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4530,7 +4402,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 10
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4545,7 +4417,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4560,7 +4432,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4575,7 +4447,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4590,7 +4462,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4605,7 +4477,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4620,7 +4492,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4635,7 +4507,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4650,7 +4522,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4665,7 +4537,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4680,7 +4552,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4695,7 +4567,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4710,7 +4582,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4725,7 +4597,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4740,7 +4612,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4755,7 +4627,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4770,7 +4642,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4785,7 +4657,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4800,7 +4672,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4815,7 +4687,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4830,7 +4702,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4845,7 +4717,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4860,7 +4732,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4875,7 +4747,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4890,7 +4762,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4905,7 +4777,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4920,7 +4792,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4935,7 +4807,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4950,7 +4822,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4965,7 +4837,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4980,7 +4852,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4995,7 +4867,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5010,7 +4882,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5025,7 +4897,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5040,7 +4912,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5055,7 +4927,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 10
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5070,7 +4942,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5085,7 +4957,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5100,7 +4972,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5115,7 +4987,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5130,7 +5002,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5145,7 +5017,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5160,7 +5032,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5175,7 +5047,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5190,7 +5062,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5205,7 +5077,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5220,7 +5092,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 10
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5235,7 +5107,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5250,7 +5122,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5265,7 +5137,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5280,7 +5152,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5295,7 +5167,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5310,7 +5182,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5325,7 +5197,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5340,7 +5212,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 10
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5355,7 +5227,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 100
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: .0500000007
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5368,10 +5240,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 122986}
   m_ConnectedBody: {fileID: 5438336}
-  m_Anchor: {x: 0, y: 1.000006, z: 0}
+  m_Anchor: {x: 0, y: 1.00000596, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000004437047, y: -1.3199768, z: 0.000012317037}
+  m_ConnectedAnchor: {x: 4.43704721e-06, y: -1.31997681, z: 1.23170366e-05}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5387,7 +5259,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5400,10 +5272,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108134}
   m_ConnectedBody: {fileID: 5430908}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000018554726, y: -1.3599949, z: 0.00000007164946}
+  m_ConnectedAnchor: {x: 1.85547265e-07, y: -1.35999489, z: 7.16494597e-08}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5419,7 +5291,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5432,10 +5304,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188534}
   m_ConnectedBody: {fileID: 5454600}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000089296395, y: -1.2399883, z: 0.0000006773256}
+  m_ConnectedAnchor: {x: 8.92963953e-07, y: -1.23998833, z: 6.77325602e-07}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5451,7 +5323,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5464,10 +5336,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110952}
   m_ConnectedBody: {fileID: 5481364}
-  m_Anchor: {x: 0, y: 1.0000021, z: 0}
+  m_Anchor: {x: 0, y: 1.00000215, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000006161394, y: -1.2999926, z: 0.00000015067408}
+  m_ConnectedAnchor: {x: 6.16139388e-08, y: -1.29999256, z: 1.50674083e-07}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5483,7 +5355,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5496,10 +5368,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166336}
   m_ConnectedBody: {fileID: 5499632}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000004382008, y: -1.359993, z: 0.000005533244}
+  m_ConnectedAnchor: {x: 4.38200777e-06, y: -1.35999298, z: 5.53324389e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5515,7 +5387,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5528,10 +5400,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121064}
   m_ConnectedBody: {fileID: 5495118}
-  m_Anchor: {x: 0, y: 1.0000021, z: 0}
+  m_Anchor: {x: 0, y: 1.00000215, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000000568867, y: -1.2999907, z: -0.0000001879887}
+  m_ConnectedAnchor: {x: 5.68866994e-07, y: -1.29999065, z: -1.87988704e-07}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5547,7 +5419,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5560,10 +5432,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 118014}
   m_ConnectedBody: {fileID: 5442668}
-  m_Anchor: {x: 0, y: 1.000006, z: 0}
+  m_Anchor: {x: 0, y: 1.00000596, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.000000056168318, y: -1.3199921, z: -0.0000020839911}
+  m_ConnectedAnchor: {x: -5.6168318e-08, y: -1.31999207, z: -2.08399115e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5579,7 +5451,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5592,10 +5464,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129138}
   m_ConnectedBody: {fileID: 5476922}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000051194763, y: -1.3599892, z: 0.0000013546512}
+  m_ConnectedAnchor: {x: 5.11947633e-07, y: -1.35998917, z: 1.3546512e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5611,7 +5483,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5624,10 +5496,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 105298}
   m_ConnectedBody: {fileID: 5462166}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000020706096, y: -1.3599873, z: 0.0000028669297}
+  m_ConnectedAnchor: {x: -2.07060964e-07, y: -1.35998726, z: 2.86692966e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5643,7 +5515,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5656,10 +5528,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 153250}
   m_ConnectedBody: {fileID: 5495422}
-  m_Anchor: {x: 0, y: 1.000006, z: 0}
+  m_Anchor: {x: 0, y: 1.00000596, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000016569081, y: -1.3199768, z: -0.0000093573835}
+  m_ConnectedAnchor: {x: 1.65690813e-06, y: -1.31997681, z: -9.35738353e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5675,7 +5547,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5688,10 +5560,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175174}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.008555748, y: 1.579999, z: -0.22732614}
+  m_ConnectedAnchor: {x: .00855574757, y: 1.57999897, z: -.22732614}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5707,7 +5579,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5720,10 +5592,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155282}
   m_ConnectedBody: {fileID: 5494972}
-  m_Anchor: {x: 0, y: 1.0000021, z: 0}
+  m_Anchor: {x: 0, y: 1.00000215, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000009886637, y: -1.3000021, z: 0.0000011666638}
+  m_ConnectedAnchor: {x: 9.88663714e-07, y: -1.3000021, z: 1.16666376e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5739,7 +5611,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5752,10 +5624,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 195870}
   m_ConnectedBody: {fileID: 5497096}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000005663251, y: -1.2399998, z: 7.1538654e-14}
+  m_ConnectedAnchor: {x: 5.66325127e-07, y: -1.23999977, z: 7.15386544e-14}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5771,7 +5643,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5784,10 +5656,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 117896}
   m_ConnectedBody: {fileID: 5440112}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000029420712, y: -1.3599834, z: 0.000004149933}
+  m_ConnectedAnchor: {x: 2.94207121e-06, y: -1.35998344, z: 4.14993292e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5803,7 +5675,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5816,10 +5688,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108026}
   m_ConnectedBody: {fileID: 5449572}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000018793877, y: -1.359993, z: 0.0000022534202}
+  m_ConnectedAnchor: {x: -1.87938767e-07, y: -1.35999298, z: 2.25342023e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5835,7 +5707,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5848,10 +5720,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 150318}
   m_ConnectedBody: {fileID: 5441722}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000030017725, y: -1.3299942, z: -0.000004250801}
+  m_ConnectedAnchor: {x: 3.00177248e-07, y: -1.3299942, z: -4.25080088e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5867,7 +5739,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5880,10 +5752,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101536}
   m_ConnectedBody: {fileID: 5495914}
-  m_Anchor: {x: 0, y: 1.000006, z: 0}
+  m_Anchor: {x: 0, y: 1.00000596, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000004459867, y: -1.3200073, z: 0.000002292619}
+  m_ConnectedAnchor: {x: 4.459867e-07, y: -1.32000732, z: 2.292619e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5899,7 +5771,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5912,10 +5784,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 144498}
   m_ConnectedBody: {fileID: 5401806}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000030148283, y: -1.2699904, z: 0.0000021674416}
+  m_ConnectedAnchor: {x: -3.01482828e-07, y: -1.26999044, z: 2.16744161e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5931,7 +5803,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5944,10 +5816,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 155284}
   m_ConnectedBody: {fileID: 5449636}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000048423376, y: -1.359993, z: 0.000004149934}
+  m_ConnectedAnchor: {x: 4.8423376e-06, y: -1.35999298, z: 4.14993383e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5963,7 +5835,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -5976,10 +5848,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184018}
   m_ConnectedBody: {fileID: 5434222}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000032098663, y: -1.3599968, z: 0.0000022820807}
+  m_ConnectedAnchor: {x: 3.20986629e-07, y: -1.3599968, z: 2.28208069e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5995,7 +5867,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6011,7 +5883,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0015187263, y: 0, z: -7.8626328}
+  m_ConnectedAnchor: {x: -.00151872635, y: 0, z: -7.86263275}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6027,7 +5899,7 @@ HingeJoint:
     min: 0
     max: 0
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6040,10 +5912,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108120}
   m_ConnectedBody: {fileID: 5489482}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000012512578, y: -1.3599911, z: -0.0000012686717}
+  m_ConnectedAnchor: {x: 1.2512578e-06, y: -1.35999107, z: -1.26867167e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6059,7 +5931,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6072,10 +5944,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175456}
   m_ConnectedBody: {fileID: 5481476}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000011108308, y: -1.359993, z: 0.00000008597961}
+  m_ConnectedAnchor: {x: 1.11083079e-06, y: -1.35999298, z: 8.59796074e-08}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6091,7 +5963,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6104,10 +5976,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 167296}
   m_ConnectedBody: {fileID: 5448702}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000012897546, y: -1.4499855, z: -0.000006187598}
+  m_ConnectedAnchor: {x: 1.28975455e-06, y: -1.4499855, z: -6.18759805e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6123,7 +5995,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6136,10 +6008,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106784}
   m_ConnectedBody: {fileID: 5476640}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000007425709, y: -1.3299961, z: 0.00000015415156}
+  m_ConnectedAnchor: {x: -7.42570876e-08, y: -1.32999611, z: 1.54151564e-07}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6155,7 +6027,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6171,7 +6043,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0015228987, y: 0, z: 7.8626337}
+  m_ConnectedAnchor: {x: -.00152289867, y: 0, z: 7.86263371}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6187,7 +6059,7 @@ HingeJoint:
     min: 0
     max: 0
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6200,10 +6072,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 135988}
   m_ConnectedBody: {fileID: 5493870}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000090708346, y: -1.3299966, z: -0.0000016092308}
+  m_ConnectedAnchor: {x: 9.07083461e-07, y: -1.32999659, z: -1.60923082e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6219,7 +6091,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6232,10 +6104,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199332}
   m_ConnectedBody: {fileID: 5420842}
-  m_Anchor: {x: 0, y: 1.0000021, z: 0}
+  m_Anchor: {x: 0, y: 1.00000215, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000015031536, y: -1.2999878, z: -0.0000039132788}
+  m_ConnectedAnchor: {x: 1.50315361e-06, y: -1.29998779, z: -3.91327876e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6251,7 +6123,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6264,10 +6136,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 177076}
   m_ConnectedBody: {fileID: 5457576}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000023415808, y: -1.3299937, z: 0.0000027933847}
+  m_ConnectedAnchor: {x: 2.3415808e-07, y: -1.32999372, z: 2.79338474e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6283,7 +6155,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6296,10 +6168,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 177696}
   m_ConnectedBody: {fileID: 5441396}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000021223361, y: -1.3599854, z: 0.00000011463892}
+  m_ConnectedAnchor: {x: 2.12233613e-06, y: -1.35998535, z: 1.14638922e-07}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6315,7 +6187,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6328,10 +6200,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 165934}
   m_ConnectedBody: {fileID: 5427722}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000003693654, y: -1.3299923, z: 0.0000015088034}
+  m_ConnectedAnchor: {x: 3.69365398e-06, y: -1.32999229, z: 1.50880339e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6347,7 +6219,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6360,10 +6232,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166432}
   m_ConnectedBody: {fileID: 5475112}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000004050846, y: -1.2699986, z: 1.3023892e-13}
+  m_ConnectedAnchor: {x: 4.05084592e-07, y: -1.26999855, z: 1.30238919e-13}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6379,7 +6251,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6392,10 +6264,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 172132}
   m_ConnectedBody: {fileID: 5415592}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000016693338, y: -1.3599987, z: -0.0000020814623}
+  m_ConnectedAnchor: {x: 1.66933376e-07, y: -1.3599987, z: -2.0814623e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6411,7 +6283,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6424,10 +6296,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108238}
   m_ConnectedBody: {fileID: 5459944}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000042667193, y: -1.389988, z: 0.0000007944928}
+  m_ConnectedAnchor: {x: 4.26671932e-07, y: -1.38998795, z: 7.94492792e-07}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6443,7 +6315,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6456,10 +6328,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 183268}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00042442232, y: 1.579999, z: -0.114237666}
+  m_ConnectedAnchor: {x: -.000424422324, y: 1.57999897, z: -.114237666}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6475,7 +6347,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6488,10 +6360,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 112488}
   m_ConnectedBody: {fileID: 5421996}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000026419747, y: -1.3599892, z: 0.00000015762782}
+  m_ConnectedAnchor: {x: -2.64197467e-07, y: -1.35998917, z: 1.57627824e-07}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6507,7 +6379,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6520,10 +6392,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154648}
   m_ConnectedBody: {fileID: 5451880}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000046124134, y: -1.3599968, z: -1.8062013e-13}
+  m_ConnectedAnchor: {x: -4.61241342e-07, y: -1.3599968, z: -1.80620127e-13}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6539,7 +6411,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6552,10 +6424,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 187480}
   m_ConnectedBody: {fileID: 5438196}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000021865728, y: -1.2700043, z: 0.0000033866286}
+  m_ConnectedAnchor: {x: 2.18657283e-06, y: -1.27000427, z: 3.38662858e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6571,7 +6443,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6584,10 +6456,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137130}
   m_ConnectedBody: {fileID: 5432302}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000005556439, y: -1.3899994, z: 0.000000073230126}
+  m_ConnectedAnchor: {x: 5.55643886e-08, y: -1.38999939, z: 7.3230126e-08}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6603,7 +6475,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6616,10 +6488,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 135650}
   m_ConnectedBody: {fileID: 5488220}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000032194674, y: -1.2699928, z: 0.0000010159882}
+  m_ConnectedAnchor: {x: -3.21946743e-07, y: -1.26999283, z: 1.01598823e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6635,7 +6507,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6648,10 +6520,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171658}
   m_ConnectedBody: {fileID: 5462336}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000004384934, y: -1.2399899, z: 0.000003017197}
+  m_ConnectedAnchor: {x: -4.38493402e-08, y: -1.23998988, z: 3.01719706e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6667,7 +6539,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6680,10 +6552,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 104184}
   m_ConnectedBody: {fileID: 5436502}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000014304009, y: -1.3899803, z: -0.000009409328}
+  m_ConnectedAnchor: {x: 1.43040086e-06, y: -1.38998032, z: -9.40932841e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6699,7 +6571,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6712,10 +6584,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 148820}
   m_ConnectedBody: {fileID: 5402608}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000013818919, y: -1.3599968, z: 0.000008199557}
+  m_ConnectedAnchor: {x: 1.38189193e-06, y: -1.3599968, z: 8.19955676e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6731,7 +6603,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6744,10 +6616,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 150906}
   m_ConnectedBody: {fileID: 5483672}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000016126648, y: -1.2699909, z: -0.000007450581}
+  m_ConnectedAnchor: {x: 1.61266485e-06, y: -1.26999092, z: -7.45058105e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6763,7 +6635,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6776,10 +6648,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191702}
   m_ConnectedBody: {fileID: 5456544}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000000922214, y: -1.3299923, z: -0.0000066191033}
+  m_ConnectedAnchor: {x: 9.22213985e-07, y: -1.32999229, z: -6.61910326e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6795,7 +6667,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6808,10 +6680,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188332}
   m_ConnectedBody: {fileID: 5478298}
-  m_Anchor: {x: 0, y: 1.0000021, z: 0}
+  m_Anchor: {x: 0, y: 1.00000215, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000003335336, y: -1.2999916, z: 0.0000042146285}
+  m_ConnectedAnchor: {x: 3.33533603e-06, y: -1.29999161, z: 4.21462846e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6827,7 +6699,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6840,10 +6712,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113864}
   m_ConnectedBody: {fileID: 5422652}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000040933637, y: -1.3899841, z: 0.000004137185}
+  m_ConnectedAnchor: {x: 4.09336371e-06, y: -1.38998413, z: 4.13718499e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6859,7 +6731,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6872,10 +6744,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162206}
   m_ConnectedBody: {fileID: 5414124}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000016772555, y: -1.3899918, z: -0.0000005601574}
+  m_ConnectedAnchor: {x: 1.67725545e-06, y: -1.38999176, z: -5.60157389e-07}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6891,7 +6763,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6907,7 +6779,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 7.86}
+  m_ConnectedAnchor: {x: 0, y: 0, z: 7.86000013}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6923,7 +6795,7 @@ HingeJoint:
     min: 0
     max: 0
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6936,10 +6808,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190834}
   m_ConnectedBody: {fileID: 5472508}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000051653313, y: -1.2699962, z: 0.0000005926599}
+  m_ConnectedAnchor: {x: 5.16533134e-07, y: -1.26999617, z: 5.92659887e-07}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6955,7 +6827,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6968,10 +6840,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174324}
   m_ConnectedBody: {fileID: 5442580}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000005585955, y: -1.3899937, z: -0.0000020502741}
+  m_ConnectedAnchor: {x: -5.58595502e-07, y: -1.38999367, z: -2.05027413e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6987,7 +6859,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7000,10 +6872,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 198056}
   m_ConnectedBody: {fileID: 5406876}
-  m_Anchor: {x: 0, y: 1.000006, z: 0}
+  m_Anchor: {x: 0, y: 1.00000596, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000007651899, y: -1.3199863, z: -0.000010076432}
+  m_ConnectedAnchor: {x: 7.65189895e-07, y: -1.31998634, z: -1.00764319e-05}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7019,7 +6891,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7032,10 +6904,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125406}
   m_ConnectedBody: {fileID: 5400158}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000091065004, y: -1.4499989, z: -0.000000091668994}
+  m_ConnectedAnchor: {x: 9.10650044e-07, y: -1.44999886, z: -9.16689942e-08}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7051,7 +6923,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7064,10 +6936,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 172490}
   m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000019624929, y: 1.5799994, z: -0.14149666}
+  m_ConnectedAnchor: {x: -1.96249289e-07, y: 1.57999945, z: -.141496658}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7083,7 +6955,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7096,10 +6968,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123922}
   m_ConnectedBody: {fileID: 5423210}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000027382803, y: -1.4499912, z: -0.00000009166786}
+  m_ConnectedAnchor: {x: 2.73828027e-06, y: -1.44999123, z: -9.16678573e-08}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7115,7 +6987,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7128,10 +7000,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 170148}
   m_ConnectedBody: {fileID: 5451950}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000000019072136, y: -1.2399951, z: 0.000002089049}
+  m_ConnectedAnchor: {x: 1.90721359e-08, y: -1.23999512, z: 2.08904908e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7147,7 +7019,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7160,10 +7032,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159352}
   m_ConnectedBody: {fileID: 5417678}
-  m_Anchor: {x: 0, y: 1.000006, z: 0}
+  m_Anchor: {x: 0, y: 1.00000596, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000021329458, y: -1.3199863, z: 0.000004147403}
+  m_ConnectedAnchor: {x: 2.13294584e-06, y: -1.31998634, z: 4.14740316e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7179,7 +7051,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7192,10 +7064,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191798}
   m_ConnectedBody: {fileID: 5457226}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000019948752, y: -1.3600025, z: 0.00000083495564}
+  m_ConnectedAnchor: {x: 1.99487522e-06, y: -1.36000252, z: 8.34955642e-07}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7211,7 +7083,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7224,10 +7096,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 115640}
   m_ConnectedBody: {fileID: 5428642}
-  m_Anchor: {x: 0, y: 1.0000021, z: 0}
+  m_Anchor: {x: 0, y: 1.00000215, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000060633886, y: -1.2999992, z: -0.0000020167665}
+  m_ConnectedAnchor: {x: 6.06338858e-07, y: -1.29999924, z: -2.01676653e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7243,7 +7115,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7256,10 +7128,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123164}
   m_ConnectedBody: {fileID: 5434512}
-  m_Anchor: {x: 0, y: 1.000004, z: 0}
+  m_Anchor: {x: 0, y: 1.00000405, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000010947558, y: -1.3599949, z: 0.00000007165}
+  m_ConnectedAnchor: {x: 1.09475582e-06, y: -1.35999489, z: 7.16499997e-08}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7275,7 +7147,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7288,10 +7160,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 167858}
   m_ConnectedBody: {fileID: 5475800}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000002369852, y: -1.2400055, z: 0.0000020319767}
+  m_ConnectedAnchor: {x: 2.36985193e-06, y: -1.24000549, z: 2.03197669e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7307,7 +7179,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7320,10 +7192,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 136786}
   m_ConnectedBody: {fileID: 5425754}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000000233523, y: -1.3599877, z: 0.000002201308}
+  m_ConnectedAnchor: {x: 2.33522996e-07, y: -1.35998774, z: 2.20130801e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7339,7 +7211,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7352,10 +7224,10 @@ HingeJoint:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 131150}
   m_ConnectedBody: {fileID: 5438670}
-  m_Anchor: {x: 0, y: 1.0000012, z: 0}
+  m_Anchor: {x: 0, y: 1.00000119, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000000020647711, y: -1.2399969, z: -0.0000011472974}
+  m_ConnectedAnchor: {x: 2.06477111e-08, y: -1.23999691, z: -1.14729744e-06}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7371,7 +7243,7 @@ HingeJoint:
     min: 2
     max: 8
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: .200000003
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -8145,11 +8017,11 @@ MonoBehaviour:
   - {fileID: 119668}
   - {fileID: 149060}
   DashColors:
-  - {r: 0.44827592, g: 1, b: 0, a: 1}
+  - {r: .448275924, g: 1, b: 0, a: 1}
   - {r: 1, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
-  scrappingSoundThreshold: 0.4
-  scrappingSoundVolumeFactor: 0.4
+  scrappingSoundThreshold: .400000006
+  scrappingSoundVolumeFactor: .400000006
 --- !u!136 &13625710
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -8159,8 +8031,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.03
-  m_Height: 3.78
+  m_Radius: .0299999993
+  m_Height: 3.77999997
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!153 &15312058
@@ -8173,7 +8045,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 1, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000033812069, y: -1.67636, z: -0.0000021674414}
+  m_ConnectedAnchor: {x: 3.38120685e-07, y: -1.67636001, z: -2.16744138e-06}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -8214,40 +8086,46 @@ ConfigurableJoint:
   m_TargetPosition: {x: 0, y: 0, z: 0}
   m_TargetVelocity: {x: 0, y: 0, z: 0}
   m_XDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_YDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_ZDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_TargetAngularVelocity: {x: 0, y: 0, z: 0}
   m_RotationDriveMode: 0
   m_AngularXDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_AngularYZDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_SlerpDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_ProjectionMode: 0
-  m_ProjectionDistance: 0.1
+  m_ProjectionDistance: .100000001
   m_ProjectionAngle: 180
   m_ConfiguredInWorldSpace: 0
   m_SwapBodies: 0
@@ -8265,7 +8143,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 1, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000034805117, y: -1.5553132, z: 0.0121517265}
+  m_ConnectedAnchor: {x: 3.48051174e-07, y: -1.55531323, z: .0121517265}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -8306,40 +8184,46 @@ ConfigurableJoint:
   m_TargetPosition: {x: 0, y: 0, z: 0}
   m_TargetVelocity: {x: 0, y: 0, z: 0}
   m_XDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_YDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_ZDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_TargetAngularVelocity: {x: 0, y: 0, z: 0}
   m_RotationDriveMode: 0
   m_AngularXDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_AngularYZDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_SlerpDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_ProjectionMode: 0
-  m_ProjectionDistance: 0.1
+  m_ProjectionDistance: .100000001
   m_ProjectionAngle: 180
   m_ConfiguredInWorldSpace: 0
   m_SwapBodies: 0
@@ -8357,7 +8241,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000007476622, y: -1.5687841, z: -0.00087341113}
+  m_ConnectedAnchor: {x: -7.47662227e-07, y: -1.56878412, z: -.000873411132}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -8398,40 +8282,46 @@ ConfigurableJoint:
   m_TargetPosition: {x: 0, y: 0, z: 0}
   m_TargetVelocity: {x: 0, y: 0, z: 0}
   m_XDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_YDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_ZDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_TargetAngularVelocity: {x: 0, y: 0, z: 0}
   m_RotationDriveMode: 0
   m_AngularXDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_AngularYZDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_SlerpDrive:
-    serializedVersion: 3
+    serializedVersion: 2
+    mode: 0
     positionSpring: 0
     positionDamper: 0
-    maximumForce: 3.4028233e+38
+    maximumForce: 3.40282326e+38
   m_ProjectionMode: 0
-  m_ProjectionDistance: 0.1
+  m_ProjectionDistance: .100000001
   m_ProjectionAngle: 180
   m_ConfiguredInWorldSpace: 0
   m_SwapBodies: 0
