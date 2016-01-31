@@ -72,8 +72,12 @@ public class RuneBehaviour : MonoBehaviour {
 
         while (ratio < 1f)
         {
-            ratio += Time.deltaTime / LightTime;
-            symbol.color = Color.Lerp(startColor, DefaultColor, ratio);
+            // Hack
+            if (enabled)
+            {
+                ratio += Time.deltaTime / LightTime;
+                symbol.color = Color.Lerp(startColor, DefaultColor, ratio);
+            }
 
             yield return null;
         }

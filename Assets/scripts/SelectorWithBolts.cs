@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using XInputDotNetPure;
 
 [RequireComponent(typeof(Rigidbody))]
 public class SelectorWithBolts : MonoBehaviour
@@ -73,6 +74,27 @@ public class SelectorWithBolts : MonoBehaviour
             playerCylinders[playerId][cylinderIndex].material.color = DashColors[playerId];
 
             yield return null;
+        }
+
+        StartCoroutine(VibrateController(playerId));
+    }
+
+    private IEnumerator VibrateController(int playerId)
+    {
+        GamePad.SetVibration((PlayerIndex)playerId, 1f, 1f);
+
+        yield return new WaitForSeconds(0.5f);
+
+        GamePad.SetVibration((PlayerIndex)playerId, 0f, 0f);
+    }
+
+    void OnApplicationQuit()
+    {
+        // In case the coroutine was still running when we closed the game
+
+        for (int i = 0; i < Bolts.Length; i++)
+        {
+            GamePad.SetVibration((PlayerIndex)i, 0f, 0f);
         }
     }
 }
