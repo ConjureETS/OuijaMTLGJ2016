@@ -15,22 +15,6 @@ public class RuneBehaviour : MonoBehaviour {
 
     private Character currentCharacter;
 
-	void Update ()
-    {
-        if (sign == 0f) return;
-
-        elapsedTime += Time.deltaTime * sign;
-
-        float ratio = elapsedTime / LightTime;
-
-        symbol.color = Color.Lerp(DefaultColor, targetColor, ratio);
-
-        if (ratio < 0f || ratio > 1f)
-	    {
-		    sign = 0f;
-	    }
-	}
-
 	void Start()
 	{
 		float col = 80f/255f; // Random.value;
