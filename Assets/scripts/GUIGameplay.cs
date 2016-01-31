@@ -41,11 +41,10 @@ public class GUIGameplay : MonoBehaviour {
                     break;
             }
             //beardTex.Resize(10, 10);
-            int offset =(int) ((Screen.width  - 3 * boxWidth) / 4f);
-            x += offset ;
+            int offset = (int)((Screen.width  - 3 * boxWidth) / 5f);
+			x = (int) (((Screen.width - boxWidth*3) / 3 * (1+1/6) * i) + (Screen.width - boxWidth*3)/6);
+
             GUI.Box(new Rect(x , 0, boxWidth, 90), beardTex, boxStyle);
-            
-            
             
             for (int j = 0;j< p.letters.Length;++j)
             {
@@ -57,7 +56,7 @@ public class GUIGameplay : MonoBehaviour {
                 {
                     Color temp = GUI.color ;
                     GUI.color = new Color(1f, 1f, 1f, 0.50f);
-                    GUI.DrawTexture(new Rect(x + j * 30 + 20 , 40, 30, 30), rune);
+                    GUI.DrawTexture(new Rect(x + j * 40 + 20 , 40, 40, 40), rune);
                     GUI.color = temp;
 
                 }
@@ -68,7 +67,7 @@ public class GUIGameplay : MonoBehaviour {
 
                 
             }
-            x += boxWidth;
+            //x += boxWidth;
         }
         
     }
