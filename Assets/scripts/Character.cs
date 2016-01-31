@@ -14,7 +14,7 @@ public class Character : MonoBehaviour
     public Color TrailColor;
 
     private Rigidbody rb;
-    private Quaternion targetRot;
+    private Quaternion targetRot = Quaternion.identity;
 
     private float dashRemainingTime = 6f;
     private bool isDashing = false;
@@ -23,6 +23,8 @@ public class Character : MonoBehaviour
     private SelectorWithBolts selector;
 
     private Vector3 dashForward;
+
+    private ParticleSystem particleSys;
 
     public int PlayerID
     {
@@ -33,6 +35,7 @@ public class Character : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        particleSys = GetComponent<ParticleSystem>();
     }
 
     void Start()
@@ -53,7 +56,7 @@ public class Character : MonoBehaviour
         }
         else
         {
-            rb.rotation = Quaternion.RotateTowards(rb.rotation, targetRot, TurnSpeed * Time.deltaTime);
+			rb.rotation = Quaternion.RotateTowards(rb.rotation, targetRot, TurnSpeed * Time.deltaTime);
         }
     }
 
@@ -91,6 +94,8 @@ public class Character : MonoBehaviour
         selector.ReplenishPlayerDashMeter(playerId);
 
         dashRemainingTime = DashCooldown;
+
+        //particleSys.Play();
 
         StartCoroutine(DashCoroutine());
         
