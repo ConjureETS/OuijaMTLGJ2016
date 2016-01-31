@@ -17,6 +17,9 @@ public class SelectorWithBolts : MonoBehaviour
 
     private SoundManager sm;
 
+    public float scrappingSoundThreshold = 1f;
+    public float scrappingSoundVolumeFactor = 0.05f;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -47,20 +50,20 @@ public class SelectorWithBolts : MonoBehaviour
             RootCylinders[i].position = constraintPos;
 		}
 
-        if( rb.velocity.sqrMagnitude > 0.7f)
+        if( rb.velocity.sqrMagnitude > scrappingSoundThreshold)
         {
             if (sm.Scrapping.isPlaying)
             {
-                sm.UpdateScrappingVolume( Mathf.Clamp(rb.velocity.sqrMagnitude * 0.05f , 0f, 1f));
+                sm.UpdateScrappingVolume( Mathf.Clamp(rb.velocity.magnitude * scrappingSoundVolumeFactor, 0f, 1f));
             }
             else
             {
-                sm.PlayScrappingSound(Mathf.Clamp(rb.velocity.sqrMagnitude * 0.05f, 0f, 1f));
+                sm.PlayScrappingSound(Mathf.Clamp(rb.velocity.magnitude * scrappingSoundVolumeFactor, 0f, 1f));
             }
         }
         else
         {
-            sm.StopScrappingSound();
+            sm.UpdateScrappingVolume(0f);
         }
     }
 
