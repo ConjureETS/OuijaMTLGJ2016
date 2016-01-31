@@ -35,3 +35,10 @@ MonoBehaviour:
     ButtonActions: []
     AxisRanges: []
     ButtonStates: []
+  - name: Menu
+    ButtonActions:
+    - name: Dash
+      XboxButtons: 
+      KeyboardKeys: 
+    AxisRanges: []
+    ButtonStates: []
