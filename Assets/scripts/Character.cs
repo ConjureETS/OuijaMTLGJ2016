@@ -11,6 +11,7 @@ public class Character : MonoBehaviour
     public float TurnSpeed;
     public float DashForce;
     public float DashCooldown;
+    public Color TrailColor;
 
     private Rigidbody rb;
     private Quaternion targetRot;

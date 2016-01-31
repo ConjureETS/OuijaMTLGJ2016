@@ -6,40 +6,68 @@ public class RuneBehaviour : MonoBehaviour {
 	public static float range;
 	public SpriteRenderer symbol;
 	public int letterNum;
-	private float lightState = 0f;
+	private float elapsedTime = 0f;
 	public const float LightTime = 1.5f;
+    public Color DefaultColor;
 
-	// Use this for initialization
-	void Start () {
-	
+    private Color targetColor;
+    private float sign = 0f;
+
+    private Character currentCharacter;
+
+	void Update ()
+    {
+        if (sign == 0f) return;
+
+        elapsedTime += Time.deltaTime * sign;
+
+        float ratio = elapsedTime / LightTime;
+
+        symbol.color = Color.Lerp(DefaultColor, targetColor, ratio);
+
+        if (ratio < 0f || ratio > 1f)
+	    {
+		    sign = 0f;
+	    }
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (lightState > 0f)
-		{
-			lightState -= Time.deltaTime / LightTime;
-			if (lightState < 0)
-				lightState = 0;
-			symbol.color = new Color(1 - lightState, 1f, 1 - lightState);
 
-			//Mauve cool
-			//symbol.color = new Color(1f - lightState * 0.5f, 1f - lightState * 0.8f, 1f);
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.tag == "Player" && currentCharacter == null)
+        {
+            currentCharacter = col.gameObject.GetComponent<Character>();
 
+            if (currentCharacter)
+            {
+                symbol.color = currentCharacter.TrailColor;
+            }
+        }
+    }
 
-			//symbol.color = new Color(1f - lightState * 0.4f, 1f - lightState * 0.4f, 1f);
-		}
+    void OnTriggerExit(Collider col)
+    {
+        if (col.gameObject.tag == "Player" && currentCharacter != null && currentCharacter.gameObject == col.gameObject)
+        {
+            StartCoroutine(FadeColorOut());
+        }
+    }
 
-	}
+    private IEnumerator FadeColorOut()
+    {
+        currentCharacter = null;
 
-	void OnTriggerStay(Collider col)
-	{
-		if (col.gameObject.tag == "Player")
-		{
-			lightState = 1f;
-			GameState.Instance.currentLevel.PressTile(letterNum);
-		}
-	}
+        Color startColor = symbol.color;
+
+        float ratio = 0f;
+
+        while (ratio < 1f)
+        {
+            ratio += Time.deltaTime / LightTime;
+            symbol.color = Color.Lerp(startColor, DefaultColor, ratio);
+
+            yield return null;
+        }
+    }
 
 	public void SetSymbol(int letterNum)
 	{
