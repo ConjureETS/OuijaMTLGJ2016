@@ -53,9 +53,9 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-    public void UpdateScrappingVolume( float volume)
+    public void UpdateScrappingVolume( float newVolume)
     {
-        Scrapping.volume = volume;
+        Scrapping.volume = Mathf.Lerp(Scrapping.volume, newVolume, Time.deltaTime);
     }
 
 

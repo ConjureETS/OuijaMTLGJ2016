@@ -31,7 +31,7 @@ public class SelectorWithBolts : MonoBehaviour
             playerCylinders[i] = Ropes[i].GetComponent<Transform>().GetComponentsInChildren<MeshRenderer>();
         }
 
-        sm = SoundManager.Instance;
+       
     }
 
     void Start()
@@ -40,6 +40,8 @@ public class SelectorWithBolts : MonoBehaviour
         {
             ReplenishPlayerDashMeter(i);
         }
+
+        sm = SoundManager.Instance;
     }
 
     void Update()
