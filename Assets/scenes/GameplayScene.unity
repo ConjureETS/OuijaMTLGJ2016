@@ -185,7 +185,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5fde9315c536b1e4b828c246cd94c2d9, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -218,6 +218,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 503598920}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &677278604 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 119668, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+  m_PrefabInternal: {fileID: 2031148190}
 --- !u!1 &696605479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,6 +1136,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1379849935}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1409712406 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 122180, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+  m_PrefabInternal: {fileID: 2031148190}
 --- !u!114 &1454034002 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11431374, guid: d9aa98efb3480c8438047a4565cd1893,
@@ -2108,6 +2116,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
+--- !u!1 &1874270281 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 149060, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+  m_PrefabInternal: {fileID: 2031148190}
 --- !u!1001 &2031148190
 Prefab:
   m_ObjectHideFlags: 0
@@ -2115,6 +2127,14 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11404228, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+      propertyPath: Ropes.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11404228, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+      propertyPath: DashColors.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 447650, guid: 435740a68d38e76438007304b084ccf7, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2171,6 +2191,42 @@ Prefab:
       propertyPath: m_ConnectedBody
       value: 
       objectReference: {fileID: 939277556}
+    - target: {fileID: 11404228, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+      propertyPath: Ropes.Array.data[0]
+      value: 
+      objectReference: {fileID: 1409712406}
+    - target: {fileID: 11404228, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+      propertyPath: Ropes.Array.data[1]
+      value: 
+      objectReference: {fileID: 677278604}
+    - target: {fileID: 11404228, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+      propertyPath: Ropes.Array.data[2]
+      value: 
+      objectReference: {fileID: 1874270281}
+    - target: {fileID: 11404228, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+      propertyPath: DashColors.Array.data[0].r
+      value: .448275924
+      objectReference: {fileID: 0}
+    - target: {fileID: 11404228, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+      propertyPath: DashColors.Array.data[0].g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11404228, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+      propertyPath: DashColors.Array.data[0].b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11404228, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+      propertyPath: DashColors.Array.data[1].r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11404228, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+      propertyPath: DashColors.Array.data[1].g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11404228, guid: 435740a68d38e76438007304b084ccf7, type: 2}
+      propertyPath: DashColors.Array.data[1].b
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 435740a68d38e76438007304b084ccf7, type: 2}
   m_IsPrefabParent: 0
