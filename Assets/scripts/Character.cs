@@ -35,12 +35,12 @@ public class Character : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-        particleSys = GetComponent<ParticleSystem>();
     }
 
     void Start()
     {
         selector = GameObject.FindObjectOfType<SelectorWithBolts>();
+        particleSys = GetComponentInChildren<ParticleSystem>();
     }
 
     void Update()
@@ -94,9 +94,7 @@ public class Character : MonoBehaviour
         selector.ReplenishPlayerDashMeter(playerId);
 
         dashRemainingTime = DashCooldown;
-
-        //particleSys.Play();
-
+        
         StartCoroutine(DashCoroutine());
         
         return true;
@@ -106,6 +104,8 @@ public class Character : MonoBehaviour
     {
         isDashing = true;
 
+        particleSys.Play();
+
         dashForward = GetComponent<Transform>().forward;
         rb.velocity = Vector3.zero;
         
@@ -114,5 +114,7 @@ public class Character : MonoBehaviour
         yield return new WaitForSeconds(0.9f);
 
         isDashing = false;
+        
+        particleSys.enableEmission = true;
     }
 }
