@@ -41,6 +41,7 @@ public class Character : MonoBehaviour
     void Start()
     {
         selector = GameObject.FindObjectOfType<SelectorWithBolts>();
+		GameState.Instance.players[playerId].character = this;
     }
 
     void Update()

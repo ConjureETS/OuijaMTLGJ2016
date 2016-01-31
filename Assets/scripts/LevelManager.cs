@@ -10,6 +10,8 @@ public class LevelManager : MonoBehaviour {
 	public float yScale = 0.8f;
 	public float colSpacing = 0f;
 	public float rowSpacing = 0f;
+	public Camera camera;
+	public Transform darkness;
 
 	public float dimension = 0.6f;
 	public GameObject hexagon;
@@ -78,6 +80,15 @@ public class LevelManager : MonoBehaviour {
         PhysicsContainer = GameObject.Find("PhysicsContainer");
 	}
 
+	void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.Space))
+		{
+			StartCoroutine(SendWinnerToTheSky(state.players[1]));
+			StartCoroutine(FadeToDark());
+		}
+	}
+
 	public void PressTile(int letterNum, RuneBehaviour tile)
 	{
 		foreach (Player player in state.players)
@@ -90,14 +101,6 @@ public class LevelManager : MonoBehaviour {
                 StartCoroutine(MoveSelectorToTile(tile));
                 
                 SoundManager.Instance.PlayRunePickup();
-                
-				//Do something
-				if (player.hasWon())
-				{
-					Debug.Log("Player won!");
-					//Yeah maybe don't quit at this point...
-					Application.Quit();
-				}
 			}
 		}
 	}
@@ -109,7 +112,7 @@ public class LevelManager : MonoBehaviour {
             InputManager.Instance.PushActiveContext("CinematicEvent", i);
 		}
 
-        // We dontt want the color to lerp back to white while we are moving to the rune
+        // We don't want the color to lerp back to white while we are moving to the rune
         tile.GetComponent<RuneBehaviour>().enabled = false;
 
         tile.GetComponent<CapsuleCollider>().enabled = false;
@@ -194,15 +197,88 @@ public class LevelManager : MonoBehaviour {
             yield return null;
         }
 
-        // At the end of it all, we re-enabled the controls
-        for (int i = 0; i < 3; i++)
-        {
-            InputManager.Instance.PushActiveContext("Normal", i);
-        }
+		bool gameWasWon = false;
 
-        EnableKinematics(false);
-        Destroy(tile.gameObject);
+		foreach (Player player in state.players)
+		{
+			if (player.hasWon())
+			{
+				gameWasWon = true;
+				StartCoroutine(SendWinnerToTheSky(player));
+			}
+		}
+
+		if (gameWasWon)
+		{
+			StartCoroutine(FadeToDark());
+		}
+		else
+		{
+			// At the end of it all, we re-enabled the controls
+			for (int i = 0; i < 3; i++)
+			{
+				InputManager.Instance.PushActiveContext("Normal", i);
+			}
+
+			EnableKinematics(false);
+			Destroy(tile.gameObject);
+		}
     }
+
+	private IEnumerator SendWinnerToTheSky(Player player)
+	{
+		GameObject soul = GameObject.Instantiate(player.character.gameObject, player.character.transform.position, player.character.transform.rotation) as GameObject;
+
+		Color c;
+		Material m = Resources.Load<Material>("soul");
+		foreach (Renderer r in soul.GetComponentsInChildren<Renderer>())
+		{
+			r.material = m;
+		}
+
+		Vector3 startPos = soul.transform.position;
+		Vector3 endPos = startPos + Vector3.up * 20;
+
+		float ratio = 0f;
+		while (ratio < 1f)
+		{
+			ratio += Time.deltaTime / 4f;
+
+			soul.transform.position = Vector3.Lerp(startPos, endPos, ratio);
+
+			yield return null;
+		}
+	}
+
+	private IEnumerator FadeToDark()
+	{
+		//GameObject darkness = Instantiate(Resources.Load<GameObject>("Darkness"), new Vector3(0,15,0), Quaternion.Euler(90f,0f,0f)) as GameObject;
+		//SpriteRenderer s = darkness.GetComponent<SpriteRenderer>();
+
+		Vector3 startPos = camera.transform.position;
+		Vector3 endPos = startPos + Vector3.up * 20;
+		//Vector3 darkOffset = darkness.position - camera.transform.position;
+		camera.GetComponent<MainCameraBehavior>().enabled = false;
+
+		ratio = 0f;
+
+		while (ratio < 1f)
+		{
+			ratio += Time.deltaTime / 4f;
+
+			camera.transform.position = Vector3.Lerp(startPos, endPos, ratio);
+			//darkness.transform.position = Vector3.Lerp(darkOffset + startPos, darkOffset + endPos, ratio);
+
+			/*if (ratio > 0.5f)
+			{
+				s.color = new Color(0f, 0f, 0f, (ratio-0.5f)*2);
+			}*/
+
+
+			yield return null;
+		}
+		Application.LoadLevel(0);
+	}
 
     private void EnableKinematics(bool state)
     {

@@ -6,6 +6,7 @@ public class Player {
 	public int[] letters;
 	public int index = 0;
 	public int score = 0;
+	public Character character = null;
 
 	public Player(int num)
 	{
