@@ -1,21 +1,25 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
-public class HexSpawner : MonoBehaviour {
 
-	public int numRows = 4;
-	public int numColumns = 3;
+public class LevelManager : MonoBehaviour {
+
 	public float xScale = 1f;
-	public float yScale = 1f;
+	public float yScale = 0.8f;
 	public float dimension = 0.6f;
 	public GameObject hexagon;
 	private float ratio = Mathf.Sqrt(1 - 0.5f * 0.5f);
-
+	private GameState state;
 	private List<RuneBehaviour> runes = new List<RuneBehaviour>();
 
 	// Use this for initialization
-	void Start () 
+	void Start()
 	{
+		state = GameState.Instance;
+		state.currentLevel = this;
+		int numColumns = state.numColumns;
+		int numRows = state.numRows;
+
 		int[] runeNums = new int[numColumns * numRows];
 		for (int i = 0; i < numRows * numColumns; i++)
 		{
@@ -52,11 +56,34 @@ public class HexSpawner : MonoBehaviour {
 				runes.Add(rune);
 			}
 		}
+
+		int numLetters = state.wordLength;
+		foreach (Player player in state.players)
+		{
+			player.SetWord(WordGen.GetWord(numLetters));
+		}
+	}
+
+	public void PressTile(int letterNum)
+	{
+		foreach (Player player in state.players)
+		{
+			if (player.hasNextLetter(letterNum))
+			{
+				//Do something
+				if (player.hasWon())
+				{
+					Debug.Log("Player won!");
+					//Yeah maybe don't quit at this point...
+					Application.Quit();
+				}
+			}
+		}
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-	
+
 	}
 }

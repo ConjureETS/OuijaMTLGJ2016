@@ -36,13 +36,13 @@ public class RuneBehaviour : MonoBehaviour {
 		if (col.gameObject.tag == "Player")
 		{
 			lightState = 1f;
+			GameState.Instance.currentLevel.PressTile(letterNum);
 		}
 	}
 
 	public void SetSymbol(int letterNum)
 	{
 		this.letterNum = letterNum;
-		Debug.Log("runic_" + ('a' + letterNum));
 		symbol.sprite = Resources.Load<Sprite>("runic_" + (char)('a' + letterNum));
 	}
 }

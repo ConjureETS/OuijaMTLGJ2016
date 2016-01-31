@@ -28,6 +28,6 @@ public class PlayerControllerSR : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
-		Debug.Log(col.gameObject.GetComponent<RuneBehaviour>().letterNum);
+		//Remove this: Debug.Log(col.gameObject.GetComponent<RuneBehaviour>().letterNum);
 	}
 }
